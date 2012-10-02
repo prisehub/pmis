@@ -3,10 +3,14 @@
 #
 #    Copyright (C) 2011 Eficent (<http://www.eficent.com/>)
 <<<<<<< HEAD
+<<<<<<< HEAD
 #              Jordi Ballester Alomar <jordi.ballester@eficent.com>
 =======
 #              <contact@eficent.com>
 >>>>>>> Various corrections
+=======
+#              Jordi Ballester Alomar <jordi.ballester@eficent.com>
+>>>>>>> New revision
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -23,6 +27,7 @@
 #
 ##############################################################################
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 from openerp.osv import fields, osv
@@ -46,3 +51,24 @@ class ProjectHrRole(models.Model):
     code = fields.Char('Code', size=4, required=True)
     name = fields.Char('Name', size=128, required=True, translate=True)
     description = fields.Text('Description', translate=True)
+=======
+import tools
+from osv import fields, osv
+from tools.translate import _
+
+    
+class project_hr_role(osv.osv):
+    
+    _name = "project.hr.role"
+    _description = 'Project Role'
+    
+    _columns = {        
+        'code': fields.char('Code', size=4, required=True),
+        'name': fields.char('Name', size=128, required=True, translate=True),
+        'description': fields.text('Description', translate=True),                                         
+    }
+    
+
+project_hr_role()
+
+>>>>>>> New revision

@@ -9,8 +9,13 @@
             <field name="code">R</field>
             <field name="name">Responsible</field>
             <field name="description">Those who do the work to achieve the task. 
+<<<<<<< HEAD
 There is typically one role with a participation type of Responsible, 
 although others can be delegated to assist in the work required.
+=======
+            	There is typically one role with a participation type of Responsible, 
+            	although others can be delegated to assist in the work required.
+>>>>>>> New revision
             	</field>
         </record>
 
@@ -18,9 +23,15 @@ although others can be delegated to assist in the work required.
             <field name="code">A</field>
             <field name="name">Accountable</field>
             <field name="description">The one ultimately answerable for the correct and thorough completion of the 
+<<<<<<< HEAD
 deliverable or task, and the one from whom Responsible is delegated the work.
 In other words, an Accountable must sign off (Approve) on work that Responsible provides. 
 There must be only one Accountable specified for each task or deliverable.
+=======
+            	deliverable or task, and the one from whom Responsible is delegated the work.
+            	In other words, an Accountable must sign off (Approve) on work that Responsible provides. 
+            	There must be only one Accountable specified for each task or deliverable.
+>>>>>>> New revision
             	</field>            
         </record>
 
@@ -28,7 +39,11 @@ There must be only one Accountable specified for each task or deliverable.
             <field name="code">C</field>
             <field name="name">Consulted</field>
             <field name="description">Those whose opinions are sought, 
+<<<<<<< HEAD
 typically subject matter experts; and with whom there is two-way communication.
+=======
+            	typically subject matter experts; and with whom there is two-way communication.
+>>>>>>> New revision
             	</field>                 
         </record>
         
@@ -36,8 +51,13 @@ typically subject matter experts; and with whom there is two-way communication.
             <field name="code">I</field>
             <field name="name">Informed</field>
             <field name="description">Those who are kept up-to-date on progress, 
+<<<<<<< HEAD
 often only on completion of the task or deliverable; 
 and with whom there is just one-way communication
+=======
+            	often only on completion of the task or deliverable; 
+            	and with whom there is just one-way communication
+>>>>>>> New revision
             </field>  
         </record>
         
@@ -47,6 +67,7 @@ and with whom there is just one-way communication
         <record id="project_hr_role_sp" model="project.hr.role">
             <field name="code">SP</field>
             <field name="name">Project Sponsor</field>
+<<<<<<< HEAD
 			<field name="description">Sponsor.
 			A sponsor is the person or group who provides resources and support for the project and is
 accountable for enabling success. The sponsor may be external or internal to the project manager’s
@@ -60,6 +81,8 @@ changes in scope, phase-end reviews, and go/no-go decisions when risks are parti
 sponsor also ensures a smooth transfer of the project’s deliverables into the business of the requesting
 organization after project closure.
             </field>  
+=======
+>>>>>>> New revision
         </record>        
         
 		<record id="project_hr_role_pm" model="project.hr.role">
@@ -67,6 +90,7 @@ organization after project closure.
             <field name="name">Project Manager</field>
         </record>    
 
+<<<<<<< HEAD
 		<record id="project_hr_role_cu" model="project.hr.role">
             <field name="code">CU</field>
             <field name="name">Customer or User</field>
@@ -126,5 +150,24 @@ a clear directive to manage all tasks within their functional area of responsibi
 may provide subject matter expertise or their function may provide services to the project.
             </field>  
         </record>
+=======
+		<record id="project_hr_role_tm" model="project.hr.role">
+            <field name="code">TL</field>
+            <field name="name">Team Leader</field>
+        </record>        
+                    
+		<record id="project_hr_role_tm" model="project.hr.role">
+            <field name="code">TM</field>
+            <field name="name">Team Member</field>
+        </record>    
+
+		<record id="project_hr_role_lm" model="project.hr.role">
+            <field name="code">LM</field>
+            <field name="name">Line Manager</field>
+        </record>    
+
+     
+           
+>>>>>>> New revision
     </data>
 </openerp>

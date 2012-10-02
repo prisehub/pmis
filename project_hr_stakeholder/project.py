@@ -3,10 +3,14 @@
 #
 #    Copyright (C) 2011 Eficent (<http://www.eficent.com/>)
 <<<<<<< HEAD
+<<<<<<< HEAD
 #              Jordi Ballester Alomar <jordi.ballester@eficent.com>
 =======
 #              <contact@eficent.com>
 >>>>>>> Various corrections
+=======
+#              Jordi Ballester Alomar <jordi.ballester@eficent.com>
+>>>>>>> New revision
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -23,6 +27,7 @@
 #
 ##############################################################################
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87,3 +92,20 @@ class Project(models.Model):
 =======
             record.stakeholders_count = len(record.stakeholder_ids)
 >>>>>>> Correct typo in count field
+=======
+import tools
+from osv import fields, osv
+from tools.translate import _
+
+    
+class project(osv.osv):
+    _name = "project.project"
+    _inherit = "project.project"
+ 
+    _columns = {        
+        'stakeholder_ids': fields.one2many('project.hr.stakeholder', 'project_id', 'Stakeholders'),                                                 
+    }
+
+project()
+
+>>>>>>> New revision

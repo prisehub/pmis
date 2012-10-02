@@ -3,6 +3,7 @@
     <data>
     	
 #---------------------------------------------------------------------------------------------------------
+<<<<<<< HEAD
 #   Extend the project
 #---------------------------------------------------------------------------------------------------------
 
@@ -73,6 +74,19 @@
 		<menuitem id="project_hr_stakeholder_menu_project_config_address_book"
 			name="Stakeholders"
 			parent="base.menu_definitions"
+=======
+#   Extend the menus
+#---------------------------------------------------------------------------------------------------------
+		<menuitem id="project_hr_stakeholder_menu" 
+			name="Stakeholders" 
+			parent="project.menu_project_management" 
+			sequence="2"
+			groups="project.group_project_manager,project.group_project_user" />
+		
+		<menuitem id="project_hr_stakeholder_menu_project_config_address_book" 
+			name="Stakeholders" 
+			parent="project.menu_definitions" 
+>>>>>>> New revision
 			sequence="2"
             groups="project.group_project_manager"/>
 
@@ -80,12 +94,17 @@
             id="base.project_hr_stakeholder_menu_customer_form"
             parent="project_hr_stakeholder_menu"
             groups="project.group_project_manager,project.group_project_user"
+<<<<<<< HEAD
             sequence="1"/>
+=======
+            sequence="1"/>    
+>>>>>>> New revision
 
         <menuitem action="base.action_partner_supplier_form"
             id="base.project_hr_stakeholder_menu_supplier_form"
             parent="project_hr_stakeholder_menu"
             groups="project.group_project_manager,project.group_project_user"
+<<<<<<< HEAD
 <<<<<<< HEAD
             sequence="2"/>    
 
@@ -99,22 +118,38 @@
             groups="project.group_project_manager,project.group_project_user"
             sequence="3"/>-->
 <!--
+=======
+            sequence="2"/>    
+
+>>>>>>> New revision
         <menuitem action="base.action_partner_address_form" 
         	id="base.project_hr_stakeholder_menu_project_partner_address_form"
         	parent="project_hr_stakeholder_menu" 
             groups="project.group_project_manager,project.group_project_user"
             sequence="3"/>
+<<<<<<< HEAD
 -->
 >>>>>>> Various corrections
 
 
 <<<<<<< HEAD
+=======
+                    
+                        
+
+#---------------------------------------------------------------------------------------------------------
+#   Extend the project
+#---------------------------------------------------------------------------------------------------------
+
+
+>>>>>>> New revision
 		<record id="edit_project" model="ir.ui.view">
             <field name="name">project.project.form</field>
             <field name="model">project.project</field>
             <field name="type">form</field>
             <field name="inherit_id" ref="project.edit_project"/>
             <field name="arch" type="xml">
+<<<<<<< HEAD
 <<<<<<< HEAD
             	<notebook position="inside">
 					<page  string="Stakeholders">                        
@@ -132,10 +167,21 @@
 			                    <field name="role_ids" widget="many2many_tags" />                                        
 								<field name="responsibility_ids" widget="many2many_tags"/>
 >>>>>>> Various corrections
+=======
+            	<page string='Administration' position="after">
+					<page groups="base.group_extended" string="Stakeholders">                        
+                        <field name="stakeholder_ids" nolabel="1" context="{'default_project_id': active_id}">
+                        	<tree string="Stakeholders">       
+			                	<field name="partner_id"/>
+			                	<field name="contact_id"/>             
+			                    <field name="roles_name_str"/>                                        
+								<field name="responsibilities_name_str"/>
+>>>>>>> New revision
 								<field name="influence"/>
 			                </tree>
 	                        <form string="Stakeholders">
 			                	<group colspan="4" col="4">
+<<<<<<< HEAD
 <<<<<<< HEAD
 				                    <field name="project_id" readonly="1"/>
 				                    <field name="name"/>                    
@@ -144,6 +190,12 @@
 				                    <field name="project_id" readonly="1"/>         
 				                    <field name="partner_id"/>                   
 >>>>>>> Various corrections
+=======
+				                    <field name="project_id" readonly="1"/>
+				                    <field name="name"/>                    
+				                    <field name="partner_id"/>
+			                		<field name="contact_id" domain="[('partner_id','=',partner_id)]"/>	                    
+>>>>>>> New revision
 								</group>
 								<newline/>						                                        
 			                    <group colspan="6" col="6">
@@ -158,6 +210,7 @@
                         </field>                                                    
                     </page> 	            		
 <<<<<<< HEAD
+<<<<<<< HEAD
 				</notebook>	 				                            	                        
 =======
 				</page>	 				                            	                        
@@ -167,5 +220,11 @@
              
 =======
 >>>>>>> Ordering fields and bugfix (missing data import)
+=======
+				</page>	 				                            	                        
+            </field>            	        
+        </record>   	
+             
+>>>>>>> New revision
     </data>
 </openerp>
