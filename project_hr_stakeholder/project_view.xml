@@ -151,6 +151,7 @@
             <field name="arch" type="xml">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             	<notebook position="inside">
 					<page  string="Stakeholders">                        
                         <field name="stakeholder_ids" nolabel="1" context="{'default_project_id': active_id}">
@@ -169,6 +170,9 @@
 >>>>>>> Various corrections
 =======
             	<page string='Administration' position="after">
+=======
+            	<notebook position="inside">
+>>>>>>> Updated UI tweaks to update the correct element in the new UI.
 					<page groups="base.group_extended" string="Stakeholders">                        
                         <field name="stakeholder_ids" nolabel="1" context="{'default_project_id': active_id}">
                         	<tree string="Stakeholders">       
@@ -211,6 +215,7 @@
                     </page> 	            		
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				</notebook>	 				                            	                        
 =======
 				</page>	 				                            	                        
@@ -222,6 +227,9 @@
 >>>>>>> Ordering fields and bugfix (missing data import)
 =======
 				</page>	 				                            	                        
+=======
+				</notebook>	 				                            	                        
+>>>>>>> Updated UI tweaks to update the correct element in the new UI.
             </field>            	        
         </record>   	
              
