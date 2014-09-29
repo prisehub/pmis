@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from openerp.osv import fields, osv
 =======
 import tools
@@ -55,6 +56,9 @@ class ProjectHrRole(models.Model):
 import tools
 from osv import fields, osv
 from tools.translate import _
+=======
+from openerp.osv import fields, osv
+>>>>>>> Updated the imports to work with v8.  Removed a lot in the process.
 
     
 class project_hr_role(osv.osv):

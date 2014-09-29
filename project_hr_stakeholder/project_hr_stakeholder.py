@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from openerp import tools
 from openerp.osv import fields, osv
 =======
@@ -185,6 +186,10 @@ class ProjectHrStakeholder(orm.Model):
 import tools
 from osv import fields, osv
 from tools.translate import _
+=======
+from openerp import tools
+from openerp.osv import fields, osv
+>>>>>>> Updated the imports to work with v8.  Removed a lot in the process.
 
     
 class project_hr_stakeholder(osv.osv):
