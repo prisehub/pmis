@@ -85,8 +85,12 @@
 		
 		<menuitem id="project_hr_stakeholder_menu_project_config_address_book" 
 			name="Stakeholders" 
+<<<<<<< HEAD
 			parent="project.menu_definitions" 
 >>>>>>> New revision
+=======
+			parent="base.menu_definitions" 
+>>>>>>> Updated menu records to point to correct base entry.
 			sequence="2"
             groups="project.group_project_manager"/>
 

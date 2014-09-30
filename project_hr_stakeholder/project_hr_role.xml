@@ -52,6 +52,7 @@
         </record>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <!--<menuitem id="menu_roles_config" name="Roles" parent="base.menu_definitions" sequence="1"/>-->
         <menuitem action="action_project_hr_role_tree"
 			name="Roles"
@@ -60,6 +61,9 @@
 			sequence="2"/>                  	                    
 =======
         <menuitem id="menu_roles_config" name="Roles" parent="project.menu_definitions" sequence="1"/>
+=======
+        <menuitem id="menu_roles_config" name="Roles" parent="base.menu_definitions" sequence="1"/>
+>>>>>>> Updated menu records to point to correct base entry.
         <menuitem action="action_project_hr_role_tree" id="menu_project_hr_role_view" parent="menu_roles_config" sequence="1"/>                  	                    
 >>>>>>> New revision
     </data>
