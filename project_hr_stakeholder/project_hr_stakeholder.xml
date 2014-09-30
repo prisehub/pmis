@@ -22,7 +22,6 @@
 >>>>>>> Various corrections
 =======
 	                    <field name="partner_id"/>
-                		<field name="contact_id" domain="[('partner_id','=',partner_id)]"/>
                 		<field name="name"/>        	                    
 >>>>>>> New revision
 					</group>
@@ -48,6 +47,7 @@
                 	<field name="project_id"/>                   	  
                 	<field name="partner_id"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 	<field name="name"/>              
 <<<<<<< HEAD
                     <field name="roles_name_str"/>                                        
@@ -58,6 +58,8 @@
 >>>>>>> Various corrections
 =======
                 	<field name="contact_id"/>   
+=======
+>>>>>>> Removed contact_id as it no longer exists in v8 (or even v7).
                 	<field name="name"/>              
                     <field name="roles_name_str"/>                                        
 					<field name="responsibilities_name_str"/>
@@ -77,6 +79,7 @@
                 	<field name="project_id"/>                 	         
                 	<field name="partner_id"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 	<field name="name"/>               
 <<<<<<< HEAD
                     <field name="roles_name_str"/>                                        
@@ -87,6 +90,8 @@
 >>>>>>> Various corrections
 =======
                 	<field name="contact_id"/>
+=======
+>>>>>>> Removed contact_id as it no longer exists in v8 (or even v7).
                 	<field name="name"/>               
                     <field name="roles_name_str"/>                                        
 					<field name="responsibilities_name_str"/>
@@ -107,9 +112,12 @@
                 		<field name="project_id"/>                   		       
                 		<field name="partner_id"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 		<field name="contact_id"/> 
 >>>>>>> New revision
+=======
+>>>>>>> Removed contact_id as it no longer exists in v8 (or even v7).
                 		<field name="name"/>  
                 	</group>
                 	<newline/>
