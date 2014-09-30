@@ -125,6 +125,7 @@
 =======
             sequence="2"/>    
 
+<<<<<<< HEAD
 >>>>>>> New revision
         <menuitem action="base.action_partner_address_form" 
         	id="base.project_hr_stakeholder_menu_project_partner_address_form"
@@ -139,6 +140,8 @@
 <<<<<<< HEAD
 =======
                     
+=======
+>>>>>>> removed menu option
                         
 
 #---------------------------------------------------------------------------------------------------------
