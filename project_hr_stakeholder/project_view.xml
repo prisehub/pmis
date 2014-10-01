@@ -179,8 +179,12 @@
             	<page string='Administration' position="after">
 =======
             	<notebook position="inside">
+<<<<<<< HEAD
 >>>>>>> Updated UI tweaks to update the correct element in the new UI.
 					<page groups="base.group_extended" string="Stakeholders">                        
+=======
+					<page  string="Stakeholders">                        
+>>>>>>> Removed group_extended.
                         <field name="stakeholder_ids" nolabel="1" context="{'default_project_id': active_id}">
                         	<tree string="Stakeholders">       
 			                	<field name="partner_id"/>
