@@ -1,24 +1,34 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Translation of Odoo Server.
 =======
 # Translation of OpenERP Server.
 >>>>>>> New revision
+=======
+# Translation of OpenERP Server.
+>>>>>>> Various corrections
 # This file contains the translation of the following modules:
 #	* project_hr_stakeholder
 #
 msgid ""
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-02 05:46+0000\n"
 "PO-Revision-Date: 2016-06-02 05:46+0000\n"
 =======
+=======
+>>>>>>> Various corrections
 "Project-Id-Version: OpenERP Server 6.0.3\n"
 "Report-Msgid-Bugs-To: support@openerp.com\n"
 "POT-Creation-Date: 2012-06-18 20:49+0000\n"
 "PO-Revision-Date: 2012-06-18 20:49+0000\n"
+<<<<<<< HEAD
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -27,6 +37,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: project_hr_stakeholder
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: help:project.hr.stakeholder,responsibility_ids:0
 #: help:project.hr.stakeholder,role_ids:0
@@ -115,6 +126,8 @@ msgstr ""
 #: field:project.hr.responsibility,description:0
 #: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_edit
 =======
+=======
+>>>>>>> Various corrections
 #: model:ir.model,name:project_hr_stakeholder.model_project_hr_role
 #: view:project.hr.role:0
 msgid "Project Role"
@@ -182,13 +195,17 @@ msgstr ""
 #: view:project.hr.responsibility:0
 #: field:project.hr.responsibility,description:0
 #: view:project.hr.role:0
+<<<<<<< HEAD
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
 #: field:project.hr.role,description:0
 #: field:project.hr.stakeholder,name:0
 msgid "Description"
 msgstr ""
 
 #. module: project_hr_stakeholder
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: field:project.hr.responsibility,display_name:0
 #: field:project.hr.role,display_name:0
@@ -254,6 +271,8 @@ msgstr ""
 #: field:project.hr.stakeholder,write_date:0
 msgid "Last Updated on"
 =======
+=======
+>>>>>>> Various corrections
 #: model:ir.model,name:project_hr_stakeholder.model_project_hr_responsibility
 #: view:project.hr.responsibility:0
 msgid "Project Responsibility"
@@ -303,7 +322,10 @@ msgid "Those who do the work to achieve the task. \n"
 "            	There is typically one role with a participation type of Responsible, \n"
 "            	although others can be delegated to assist in the work required.\n"
 "            	"
+<<<<<<< HEAD
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
 msgstr ""
 
 #. module: project_hr_stakeholder
@@ -313,6 +335,7 @@ msgid "Name"
 msgstr ""
 
 #. module: project_hr_stakeholder
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_og
 msgid "Organizational Group"
@@ -330,6 +353,8 @@ msgid "Organizational groups.\n"
 "work together to achieve project goals. These groups may provide input to requirements and accept\n"
 "deliverables necessary for a smooth transition to production or related operations.\n"
 =======
+=======
+>>>>>>> Various corrections
 #: model:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_responsibility_tree
 #: model:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_stakeholder_tree
 msgid "Define the responsibilities for stakeholders in projects."
@@ -340,11 +365,15 @@ msgstr ""
 msgid "Those who are kept up-to-date on progress, \n"
 "            	often only on completion of the task or deliverable; \n"
 "            	and with whom there is just one-way communication\n"
+<<<<<<< HEAD
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
 "            "
 msgstr ""
 
 #. module: project_hr_stakeholder
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: view:project.hr.stakeholder:project_hr_stakeholder.view_project_hr_stakeholder_search
 #: field:project.hr.stakeholder,partner_id:0
@@ -353,19 +382,27 @@ msgid "Partner"
 #: view:project.project:0
 msgid "Administration"
 >>>>>>> New revision
+=======
+#: view:project.project:0
+msgid "Administration"
+>>>>>>> Various corrections
 msgstr ""
 
 #. module: project_hr_stakeholder
 #: model:ir.model,name:project_hr_stakeholder.model_project_project
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: view:project.hr.stakeholder:project_hr_stakeholder.view_project_hr_stakeholder_search
 =======
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
 #: field:project.hr.stakeholder,project_id:0
 msgid "Project"
 msgstr ""
 
 #. module: project_hr_stakeholder
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_pm
 msgid "Project Manager"
@@ -420,11 +457,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> Various corrections
 #: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_accountable
 msgid "Accountable"
 msgstr ""
 
 #. module: project_hr_stakeholder
+<<<<<<< HEAD
 >>>>>>> New revision
 #: field:project.hr.stakeholder,contact_id:0
 msgid "Contact"
@@ -511,6 +551,8 @@ msgstr ""
 #: field:project.project,stakeholder_ids:0
 msgid "Stakeholders"
 =======
+=======
+>>>>>>> Various corrections
 #: help:project.hr.stakeholder,responsibilities_name_str:0
 msgid "Project Stakeholder responsibilities"
 msgstr ""
@@ -546,12 +588,16 @@ msgstr ""
 #. module: project_hr_stakeholder
 #: field:project.hr.stakeholder,influence:0
 msgid "Influence"
+<<<<<<< HEAD
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
 msgstr ""
 
 #. module: project_hr_stakeholder
 #: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_accountable
 msgid "The one ultimately answerable for the correct and thorough completion of the \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "deliverable or task, and the one from whom Responsible is delegated the work.\n"
 "In other words, an Accountable must sign off (Approve) on work that Responsible provides. \n"
@@ -578,15 +624,23 @@ msgstr ""
 msgid "Those who do the work to achieve the task. \n"
 "There is typically one role with a participation type of Responsible, \n"
 "although others can be delegated to assist in the work required.\n"
+=======
+"            	deliverable or task, and the one from whom Responsible is delegated the work.\n"
+"            	In other words, an Accountable must sign off (Approve) on work that Responsible provides. \n"
+"            	There must be only one Accountable specified for each task or deliverable.\n"
+>>>>>>> Various corrections
 "            	"
 msgstr ""
 
 #. module: project_hr_stakeholder
+<<<<<<< HEAD
 #: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_consulted
 msgid "Those whose opinions are sought, \n"
 "typically subject matter experts; and with whom there is two-way communication.\n"
 "            	"
 =======
+=======
+>>>>>>> Various corrections
 #: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_consulted
 msgid "Consulted"
 msgstr ""
@@ -613,6 +667,9 @@ msgid " This module offers the possibility to register at project level the stak
 "        - You can specify the roles and responsibilities of the stakeholders in this project.\n"
 "        - You can maintain a master data for roles and responsibilities.\n"
 "    "
+<<<<<<< HEAD
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
 msgstr ""
 

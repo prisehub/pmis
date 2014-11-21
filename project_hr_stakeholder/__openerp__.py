@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 {
 <<<<<<< HEAD
@@ -48,6 +49,8 @@ This module offers the possibility to register at project level the stakeholders
         "project_hr_stakeholder.xml",
 >>>>>>> Various corrections
 =======
+=======
+>>>>>>> Various corrections
 ##############################################################################
 #
 #    Copyright (C) 2011 Eficent (<http://www.eficent.com/>)
@@ -70,10 +73,17 @@ This module offers the possibility to register at project level the stakeholders
 
 
 {
+<<<<<<< HEAD
     "name": "Project Stakeholder management",
     "version": "1.0",
     "author": "Eficent",
     "website": "http://www.eficent.com",
+=======
+    "name": "Project Stakeholder Management",
+    "version": "2.0",
+    "author": "Eficent",
+    "website": "",
+>>>>>>> Various corrections
     "category": "Generic Modules/Projects & Services",
     "depends": [
                 "base",
@@ -90,12 +100,17 @@ This module offers the possibility to register at project level the stakeholders
     "update_xml": [    
         "project_hr_role.xml",
         "project_hr_responsibility.xml",
+<<<<<<< HEAD
         "project_hr_stakeholder.xml",        
 >>>>>>> New revision
+=======
+        "project_hr_stakeholder.xml",
+>>>>>>> Various corrections
         "project_view.xml",
         "security/ir.model.access.csv",
         "security/project_security.xml",
         "project_hr_stakeholder_data.xml",
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     'website': 'http://project.expert',
@@ -122,18 +137,27 @@ This module offers the possibility to register at project level the stakeholders
     ],
     'test': [
 =======
+=======
+>>>>>>> Various corrections
     ],
     'demo_xml': [
 
     ],
     'test':[
+<<<<<<< HEAD
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
     ],
     'installable': True,
     'active': False,
     'certificate': '',
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 >>>>>>> New revision
+=======
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+>>>>>>> Various corrections

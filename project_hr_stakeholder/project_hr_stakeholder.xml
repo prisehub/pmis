@@ -15,6 +15,7 @@
 	                    <field name="project_id"/>	                                
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	                    <field name="partner_id"/>
                 		<field name="name"/>        	                    
 =======
@@ -24,6 +25,9 @@
 	                    <field name="partner_id"/>
                 		<field name="name"/>        	                    
 >>>>>>> New revision
+=======
+	                    <field name="partner_id"/>  	                    
+>>>>>>> Various corrections
 					</group>
 					<newline/>						                                        
                     <group colspan="6" col="6">
@@ -48,6 +52,7 @@
                 	<field name="partner_id"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 	<field name="name"/>              
 <<<<<<< HEAD
                     <field name="roles_name_str"/>                                        
@@ -64,6 +69,11 @@
                     <field name="roles_name_str"/>                                        
 					<field name="responsibilities_name_str"/>
 >>>>>>> New revision
+=======
+                	<field name="name"/>              
+                    <field name="role_ids" widget="many2many_tags"/>                                        
+					<field name="responsibility_ids" widget="many2many_tags"/>
+>>>>>>> Various corrections
 					<field name="influence"/>
                 </tree>
             </field>
@@ -78,6 +88,7 @@
                 <tree string="Stakeholders">
                 	<field name="project_id"/>                 	         
                 	<field name="partner_id"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 	<field name="name"/>               
@@ -96,6 +107,11 @@
                     <field name="roles_name_str"/>                                        
 					<field name="responsibilities_name_str"/>
 >>>>>>> New revision
+=======
+                	<field name="name"/>               
+                    <field name="role_ids" widget="many2many_tags"/>                                        
+					<field name="responsibility_ids" widget="many2many_tags"/>
+>>>>>>> Various corrections
 					<field name="influence"/>
                 </tree>
             </field>
@@ -113,11 +129,14 @@
                 		<field name="partner_id"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 		<field name="contact_id"/> 
 >>>>>>> New revision
 =======
 >>>>>>> Removed contact_id as it no longer exists in v8 (or even v7).
+=======
+>>>>>>> Various corrections
                 		<field name="name"/>  
                 	</group>
                 	<newline/>
@@ -127,12 +146,15 @@
 		                <field name="influence"/>
 		            </group>
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<group expand="0" string="Group By">
                         <filter string="Project" name="Project" context="{'group_by':'project_id'}"/>
 						<filter string="Partner" name="Partner" context="{'group_by':'partner_id'}"/>
                     </group>
 =======
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
                 </search>
             </field>
         </record>      
@@ -147,6 +169,7 @@
         </record>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <menuitem id="project_hr_stakeholder_menu" 
 			name="Stakeholders" 
 			parent="analytic_plan.project_plan" 
@@ -157,11 +180,16 @@
         		id="menu_project_hr_stakeholder_view" 
         		parent="project_hr_stakeholder_menu" 
 =======
+=======
+>>>>>>> Various corrections
         
         <menuitem action="action_project_hr_stakeholder_tree" 
         		id="menu_project_hr_stakeholder_view" 
         		parent="project.menu_project_management" 
+<<<<<<< HEAD
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
         		sequence="10"/>
            
     </data>

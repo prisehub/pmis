@@ -4,6 +4,7 @@
 #    Copyright (C) 2011 Eficent (<http://www.eficent.com/>)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #              Jordi Ballester Alomar <jordi.ballester@eficent.com>
 =======
 #              <contact@eficent.com>
@@ -11,6 +12,9 @@
 =======
 #              Jordi Ballester Alomar <jordi.ballester@eficent.com>
 >>>>>>> New revision
+=======
+#              <contact@eficent.com>
+>>>>>>> Various corrections
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -27,6 +31,7 @@
 #
 ##############################################################################
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,6 +80,11 @@ from tools.translate import _
 =======
 from openerp.osv import fields, osv
 >>>>>>> Updated the imports to work with v8.  Removed a lot in the process.
+=======
+import tools
+from osv import fields, osv
+from tools.translate import _
+>>>>>>> Various corrections
 
     
 class project_hr_responsibility(osv.osv):
@@ -91,4 +101,7 @@ class project_hr_responsibility(osv.osv):
 
 project_hr_responsibility()
 
+<<<<<<< HEAD
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections

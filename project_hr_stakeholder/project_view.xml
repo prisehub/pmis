@@ -4,6 +4,7 @@
     	
 #---------------------------------------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 #   Extend the project
 #---------------------------------------------------------------------------------------------------------
 
@@ -75,6 +76,8 @@
 			name="Stakeholders"
 			parent="base.menu_definitions"
 =======
+=======
+>>>>>>> Various corrections
 #   Extend the menus
 #---------------------------------------------------------------------------------------------------------
 		<menuitem id="project_hr_stakeholder_menu" 
@@ -86,11 +89,15 @@
 		<menuitem id="project_hr_stakeholder_menu_project_config_address_book" 
 			name="Stakeholders" 
 <<<<<<< HEAD
+<<<<<<< HEAD
 			parent="project.menu_definitions" 
 >>>>>>> New revision
 =======
 			parent="base.menu_definitions" 
 >>>>>>> Updated menu records to point to correct base entry.
+=======
+			parent="base.menu_definitions" 
+>>>>>>> Various corrections
 			sequence="2"
             groups="project.group_project_manager"/>
 
@@ -99,15 +106,20 @@
             parent="project_hr_stakeholder_menu"
             groups="project.group_project_manager,project.group_project_user"
 <<<<<<< HEAD
+<<<<<<< HEAD
             sequence="1"/>
 =======
             sequence="1"/>    
 >>>>>>> New revision
+=======
+            sequence="1"/>    
+>>>>>>> Various corrections
 
         <menuitem action="base.action_partner_supplier_form"
             id="base.project_hr_stakeholder_menu_supplier_form"
             parent="project_hr_stakeholder_menu"
             groups="project.group_project_manager,project.group_project_user"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             sequence="2"/>    
@@ -127,11 +139,22 @@
 
 <<<<<<< HEAD
 >>>>>>> New revision
+=======
+            sequence="2"/>
+
+        <menuitem action="base.action_partner_customer_form" 
+        	id="base.project_hr_stakeholder_menu_project_partner_address_form"
+        	parent="project_hr_stakeholder_menu" 
+            groups="project.group_project_manager,project.group_project_user"
+            sequence="3"/>
+<!--
+>>>>>>> Various corrections
         <menuitem action="base.action_partner_address_form" 
         	id="base.project_hr_stakeholder_menu_project_partner_address_form"
         	parent="project_hr_stakeholder_menu" 
             groups="project.group_project_manager,project.group_project_user"
             sequence="3"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 -->
 >>>>>>> Various corrections
@@ -143,19 +166,26 @@
 =======
 >>>>>>> removed menu option
                         
+=======
+-->
+>>>>>>> Various corrections
 
 #---------------------------------------------------------------------------------------------------------
 #   Extend the project
 #---------------------------------------------------------------------------------------------------------
 
 
+<<<<<<< HEAD
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
 		<record id="edit_project" model="ir.ui.view">
             <field name="name">project.project.form</field>
             <field name="model">project.project</field>
             <field name="type">form</field>
             <field name="inherit_id" ref="project.edit_project"/>
             <field name="arch" type="xml">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,6 +197,8 @@
 			                    <field name="roles_name_str"/>                                        
 								<field name="responsibilities_name_str"/>
 =======
+=======
+>>>>>>> Various corrections
             	<page string='Other Info' position="after">
 					<page groups="base.group_erp_manager" string="Stakeholders">                        
                         <field name="stakeholder_ids" nolabel="1" context="{'default_project_id': active_id}">
@@ -174,6 +206,7 @@
 			                	<field name="partner_id"/>           
 			                    <field name="role_ids" widget="many2many_tags" />                                        
 								<field name="responsibility_ids" widget="many2many_tags"/>
+<<<<<<< HEAD
 >>>>>>> Various corrections
 =======
             	<page string='Administration' position="after">
@@ -191,10 +224,13 @@
 			                    <field name="roles_name_str"/>                                        
 								<field name="responsibilities_name_str"/>
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
 								<field name="influence"/>
 			                </tree>
 	                        <form string="Stakeholders">
 			                	<group colspan="4" col="4">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 				                    <field name="project_id" readonly="1"/>
@@ -213,6 +249,10 @@
 >>>>>>> New revision
 =======
 >>>>>>> Removed contact_id as it no longer exists in v8 (or even v7).
+=======
+				                    <field name="project_id" readonly="1"/>         
+				                    <field name="partner_id"/>                   
+>>>>>>> Various corrections
 								</group>
 								<newline/>						                                        
 			                    <group colspan="6" col="6">
@@ -226,6 +266,7 @@
 			                </form>
                         </field>                                                    
                     </page> 	            		
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -247,5 +288,11 @@
         </record>   	
              
 >>>>>>> New revision
+=======
+				</page>	 				                            	                        
+            </field>            	        
+        </record>   	
+             
+>>>>>>> Various corrections
     </data>
 </openerp>

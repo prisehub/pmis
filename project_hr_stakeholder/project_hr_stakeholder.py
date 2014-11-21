@@ -4,6 +4,7 @@
 #    Copyright (C) 2011 Eficent (<http://www.eficent.com/>)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #              Jordi Ballester Alomar <jordi.ballester@eficent.com>
 =======
 #              <contact@eficent.com>
@@ -11,6 +12,9 @@
 =======
 #              Jordi Ballester Alomar <jordi.ballester@eficent.com>
 >>>>>>> New revision
+=======
+#              <contact@eficent.com>
+>>>>>>> Various corrections
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -28,6 +32,7 @@
 ##############################################################################
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,6 +195,11 @@ from tools.translate import _
 from openerp import tools
 from openerp.osv import fields, osv
 >>>>>>> Updated the imports to work with v8.  Removed a lot in the process.
+=======
+import tools
+from osv import fields, osv
+from tools.translate import _
+>>>>>>> Various corrections
 
     
 class project_hr_stakeholder(osv.osv):
@@ -251,8 +261,13 @@ class project_hr_stakeholder(osv.osv):
 
     _columns = {        
         
+<<<<<<< HEAD
         'name': fields.char('Description', required=True, size=64),
         'partner_id':fields.many2one('res.partner', 'Partner', required=True),
+=======
+        'name': fields.char('Description', required=False, size=64),
+        'partner_id':fields.many2one('res.partner', 'Partner', required=True),              
+>>>>>>> Various corrections
         'project_id': fields.many2one('project.project', 'Project', ondelete='cascade'),
         
         'role_ids': fields.many2many('project.hr.role', 'stakeholder_role_rel', 'stakeholder_id', 'role_id', 'Roles',
@@ -273,7 +288,10 @@ class project_hr_stakeholder(osv.osv):
     }
     
     def name_get(self, cr, uid, ids, context={}):
+<<<<<<< HEAD
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
         if not ids:
             return []
         res = []
@@ -284,9 +302,15 @@ class project_hr_stakeholder(osv.osv):
             res.append((stakeholder.id, stakeholder_name))
         return res
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Various corrections
     
     
 project_hr_stakeholder()
 
+<<<<<<< HEAD
 >>>>>>> New revision
+=======
+>>>>>>> Various corrections
