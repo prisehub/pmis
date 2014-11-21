@@ -177,11 +177,14 @@ msgid "Accountable"
 msgstr ""
 
 #. module: project_hr_stakeholder
+<<<<<<< HEAD
 #: field:project.hr.stakeholder,contact_id:0
 msgid "Contact"
 msgstr ""
 
 #. module: project_hr_stakeholder
+=======
+>>>>>>> Various corrections
 #: help:project.hr.stakeholder,responsibilities_name_str:0
 msgid "Project Stakeholder responsibilities"
 msgstr ""

@@ -27,9 +27,26 @@
             id="base.project_hr_stakeholder_menu_supplier_form"
             parent="project_hr_stakeholder_menu"
             groups="project.group_project_manager,project.group_project_user"
+<<<<<<< HEAD
             sequence="2"/>    
 
                         
+=======
+            sequence="2"/>
+
+        <menuitem action="base.action_partner_customer_form" 
+        	id="base.project_hr_stakeholder_menu_project_partner_address_form"
+        	parent="project_hr_stakeholder_menu" 
+            groups="project.group_project_manager,project.group_project_user"
+            sequence="3"/>
+<!--
+        <menuitem action="base.action_partner_address_form" 
+        	id="base.project_hr_stakeholder_menu_project_partner_address_form"
+        	parent="project_hr_stakeholder_menu" 
+            groups="project.group_project_manager,project.group_project_user"
+            sequence="3"/>
+-->
+>>>>>>> Various corrections
 
 #---------------------------------------------------------------------------------------------------------
 #   Extend the project
@@ -42,6 +59,7 @@
             <field name="type">form</field>
             <field name="inherit_id" ref="project.edit_project"/>
             <field name="arch" type="xml">
+<<<<<<< HEAD
             	<notebook position="inside">
 					<page  string="Stakeholders">                        
                         <field name="stakeholder_ids" nolabel="1" context="{'default_project_id': active_id}">
@@ -49,13 +67,27 @@
 			                	<field name="partner_id"/>
 			                    <field name="roles_name_str"/>                                        
 								<field name="responsibilities_name_str"/>
+=======
+            	<page string='Other Info' position="after">
+					<page groups="base.group_erp_manager" string="Stakeholders">                        
+                        <field name="stakeholder_ids" nolabel="1" context="{'default_project_id': active_id}">
+                        	<tree editable="top" string="Stakeholders">       
+			                	<field name="partner_id"/>           
+			                    <field name="role_ids" widget="many2many_tags" />                                        
+								<field name="responsibility_ids" widget="many2many_tags"/>
+>>>>>>> Various corrections
 								<field name="influence"/>
 			                </tree>
 	                        <form string="Stakeholders">
 			                	<group colspan="4" col="4">
+<<<<<<< HEAD
 				                    <field name="project_id" readonly="1"/>
 				                    <field name="name"/>                    
 				                    <field name="partner_id"/>
+=======
+				                    <field name="project_id" readonly="1"/>         
+				                    <field name="partner_id"/>                   
+>>>>>>> Various corrections
 								</group>
 								<newline/>						                                        
 			                    <group colspan="6" col="6">
@@ -69,7 +101,11 @@
 			                </form>
                         </field>                                                    
                     </page> 	            		
+<<<<<<< HEAD
 				</notebook>	 				                            	                        
+=======
+				</page>	 				                            	                        
+>>>>>>> Various corrections
             </field>            	        
         </record>   	
              

@@ -21,10 +21,17 @@
 
 
 {
+<<<<<<< HEAD
     "name": "Project Stakeholder management",
     "version": "1.0",
     "author": "Eficent",
     "website": "http://www.eficent.com",
+=======
+    "name": "Project Stakeholder Management",
+    "version": "2.0",
+    "author": "Eficent",
+    "website": "",
+>>>>>>> Various corrections
     "category": "Generic Modules/Projects & Services",
     "depends": [
                 "base",
@@ -41,7 +48,11 @@
     "update_xml": [    
         "project_hr_role.xml",
         "project_hr_responsibility.xml",
+<<<<<<< HEAD
         "project_hr_stakeholder.xml",        
+=======
+        "project_hr_stakeholder.xml",
+>>>>>>> Various corrections
         "project_view.xml",
         "security/ir.model.access.csv",
         "security/project_security.xml",

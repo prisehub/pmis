@@ -2,7 +2,11 @@
 ##############################################################################
 #
 #    Copyright (C) 2011 Eficent (<http://www.eficent.com/>)
+<<<<<<< HEAD
 #              Jordi Ballester Alomar <jordi.ballester@eficent.com>
+=======
+#              <contact@eficent.com>
+>>>>>>> Various corrections
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -20,8 +24,14 @@
 ##############################################################################
 
 
+<<<<<<< HEAD
 from openerp import tools
 from openerp.osv import fields, osv
+=======
+import tools
+from osv import fields, osv
+from tools.translate import _
+>>>>>>> Various corrections
 
     
 class project_hr_stakeholder(osv.osv):
@@ -83,8 +93,13 @@ class project_hr_stakeholder(osv.osv):
 
     _columns = {        
         
+<<<<<<< HEAD
         'name': fields.char('Description', required=True, size=64),
         'partner_id':fields.many2one('res.partner', 'Partner', required=True),
+=======
+        'name': fields.char('Description', required=False, size=64),
+        'partner_id':fields.many2one('res.partner', 'Partner', required=True),              
+>>>>>>> Various corrections
         'project_id': fields.many2one('project.project', 'Project', ondelete='cascade'),
         
         'role_ids': fields.many2many('project.hr.role', 'stakeholder_role_rel', 'stakeholder_id', 'role_id', 'Roles',

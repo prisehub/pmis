@@ -2,7 +2,11 @@
 ##############################################################################
 #
 #    Copyright (C) 2011 Eficent (<http://www.eficent.com/>)
+<<<<<<< HEAD
 #              Jordi Ballester Alomar <jordi.ballester@eficent.com>
+=======
+#              <contact@eficent.com>
+>>>>>>> Various corrections
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,7 +23,13 @@
 #
 ##############################################################################
 
+<<<<<<< HEAD
 from openerp.osv import fields, osv
+=======
+import tools
+from osv import fields, osv
+from tools.translate import _
+>>>>>>> Various corrections
 
     
 class project_hr_role(osv.osv):
