@@ -25,6 +25,7 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from openerp import tools
 from openerp.osv import fields, osv
 =======
@@ -32,6 +33,11 @@ import tools
 from osv import fields, osv
 from tools.translate import _
 >>>>>>> Various corrections
+=======
+from openerp import tools
+from openerp.osv import fields, osv
+from openerp.tools.translate import _
+>>>>>>> Preparations for 8.0
 
     
 class project_hr_stakeholder(osv.osv):
