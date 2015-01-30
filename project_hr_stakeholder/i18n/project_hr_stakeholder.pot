@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Translation of Odoo Server.
 =======
 # Translation of OpenERP Server.
@@ -7,11 +8,15 @@
 =======
 # Translation of OpenERP Server.
 >>>>>>> Various corrections
+=======
+# Translation of Odoo Server.
+>>>>>>> Updated translations template and slovene translation
 # This file contains the translation of the following modules:
 #	* project_hr_stakeholder
 #
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "Project-Id-Version: Odoo Server 8.0\n"
@@ -29,6 +34,12 @@ msgstr ""
 >>>>>>> New revision
 =======
 >>>>>>> Various corrections
+=======
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-30 08:02+0000\n"
+"PO-Revision-Date: 2015-01-30 08:02+0000\n"
+>>>>>>> Updated translations template and slovene translation
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -37,6 +48,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: project_hr_stakeholder
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 #: help:project.hr.stakeholder,responsibility_ids:0
@@ -136,11 +148,41 @@ msgstr ""
 #. module: project_hr_stakeholder
 #: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_responsible
 msgid "Responsible"
+=======
+#: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_accountable
+msgid "Accountable"
+>>>>>>> Updated translations template and slovene translation
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_informed
-msgid "Informed"
+#: field:project.hr.responsibility,code:0
+#: field:project.hr.role,code:0
+msgid "Code"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_consulted
+msgid "Consulted"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: field:project.hr.responsibility,create_uid:0
+#: field:project.hr.role,create_uid:0
+#: field:project.hr.stakeholder,create_uid:0
+msgid "Created by"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: field:project.hr.responsibility,create_date:0
+#: field:project.hr.role,create_date:0
+#: field:project.hr.stakeholder,create_date:0
+msgid "Created on"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: model:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_responsibility_tree
+#: model:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_stakeholder_tree
+msgid "Define the responsibilities for stakeholders in projects."
 msgstr ""
 
 #. module: project_hr_stakeholder
@@ -149,49 +191,28 @@ msgid "Define the roles for stakeholders in projects."
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: model:ir.ui.menu,name:project_hr_stakeholder.menu_responsibilities_config
-#: field:project.hr.stakeholder,responsibilities_name_str:0
-#: field:project.hr.stakeholder,responsibility_ids:0
-msgid "Responsibilities"
+#: view:project.hr.responsibility:project_hr_stakeholder.view_project_hr_responsibility_edit
+#: field:project.hr.responsibility,description:0
+#: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_edit
+#: field:project.hr.role,description:0
+#: field:project.hr.stakeholder,name:0
+msgid "Description"
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_lm
-msgid "Line Manager"
+#: field:project.hr.responsibility,id:0
+#: field:project.hr.role,id:0
+#: field:project.hr.stakeholder,id:0
+msgid "ID"
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_tm
-msgid "Team Member"
+#: field:project.hr.stakeholder,influence:0
+msgid "Influence"
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_consulted
-msgid "Those whose opinions are sought, \n"
-"            	typically subject matter experts; and with whom there is two-way communication.\n"
-"            	"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_pm
-msgid "Project Manager"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: constraint:project.project:0
-msgid "Error! project start-date must be lower then project end-date."
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: model:ir.ui.menu,name:project_hr_stakeholder.project_hr_stakeholder_menu
-#: model:ir.ui.menu,name:project_hr_stakeholder.project_hr_stakeholder_menu_project_config_address_book
-#: view:project.hr.stakeholder:0
-#: view:project.project:0
-#: field:project.project,stakeholder_ids:0
-msgid "Stakeholders"
-msgstr ""
-
-#. module: project_hr_stakeholder
+<<<<<<< HEAD
 #: view:project.hr.responsibility:0
 #: field:project.hr.responsibility,description:0
 #: view:project.hr.role:0
@@ -259,10 +280,18 @@ msgid "Last Modified on"
 msgstr ""
 
 #. module: project_hr_stakeholder
+=======
+#: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_informed
+msgid "Informed"
+msgstr ""
+
+#. module: project_hr_stakeholder
+>>>>>>> Updated translations template and slovene translation
 #: field:project.hr.responsibility,write_uid:0
 #: field:project.hr.role,write_uid:0
 #: field:project.hr.stakeholder,write_uid:0
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: project_hr_stakeholder
@@ -276,56 +305,20 @@ msgid "Last Updated on"
 #: model:ir.model,name:project_hr_stakeholder.model_project_hr_responsibility
 #: view:project.hr.responsibility:0
 msgid "Project Responsibility"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_sp
-msgid "Project Sponsor"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: model:project.hr.role,description:project_hr_stakeholder.project_hr_role_pm
-msgid "Annabel Mercedes Piqué"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_stakeholder_tree
-#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_stakeholder_view
-#: view:project.hr.stakeholder:0
-msgid "Project Stakeholders"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_responsibility_tree
-#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_responsibility_view
-msgid "responsibilities"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: help:project.hr.stakeholder,roles_name_str:0
-msgid "Project Stakeholder roles"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: constraint:project.project:0
-msgid "Error! You cannot assign escalation to the same project!"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: model:project.hr.role,description:project_hr_stakeholder.project_hr_role_tm
-msgid "Dept. Editorial: Montse Jané"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_responsible
-msgid "Those who do the work to achieve the task. \n"
-"            	There is typically one role with a participation type of Responsible, \n"
-"            	although others can be delegated to assist in the work required.\n"
-"            	"
-<<<<<<< HEAD
->>>>>>> New revision
 =======
->>>>>>> Various corrections
+>>>>>>> Updated translations template and slovene translation
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: field:project.hr.responsibility,write_date:0
+#: field:project.hr.role,write_date:0
+#: field:project.hr.stakeholder,write_date:0
+msgid "Last Updated on"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_lm
+msgid "Line Manager"
 msgstr ""
 
 #. module: project_hr_stakeholder
@@ -335,6 +328,56 @@ msgid "Name"
 msgstr ""
 
 #. module: project_hr_stakeholder
+#: view:project.project:project_hr_stakeholder.edit_project
+msgid "Other Info"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: field:project.hr.stakeholder,partner_id:0
+msgid "Partner"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: model:ir.model,name:project_hr_stakeholder.model_project_project
+#: field:project.hr.stakeholder,project_id:0
+msgid "Project"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_pm
+msgid "Project Manager"
+msgstr ""
+
+#. module: project_hr_stakeholder
+<<<<<<< HEAD
+#: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_responsible
+msgid "Those who do the work to achieve the task. \n"
+"            	There is typically one role with a participation type of Responsible, \n"
+"            	although others can be delegated to assist in the work required.\n"
+"            	"
+<<<<<<< HEAD
+>>>>>>> New revision
+=======
+>>>>>>> Various corrections
+=======
+#: model:ir.model,name:project_hr_stakeholder.model_project_hr_responsibility
+#: view:project.hr.responsibility:project_hr_stakeholder.view_project_hr_responsibility_edit
+#: view:project.hr.responsibility:project_hr_stakeholder.view_project_hr_responsibility_search
+#: view:project.hr.responsibility:project_hr_stakeholder.view_project_hr_responsibility_tree
+msgid "Project Responsibility"
+>>>>>>> Updated translations template and slovene translation
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: model:ir.model,name:project_hr_stakeholder.model_project_hr_role
+#: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_edit
+#: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_search
+#: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_tree
+msgid "Project Role"
+msgstr ""
+
+#. module: project_hr_stakeholder
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_og
@@ -555,17 +598,9 @@ msgid "Stakeholders"
 >>>>>>> Various corrections
 #: help:project.hr.stakeholder,responsibilities_name_str:0
 msgid "Project Stakeholder responsibilities"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: help:project.hr.stakeholder,responsibility_ids:0
-#: help:project.hr.stakeholder,role_ids:0
-msgid "The assignment of the roles and responsibilities determines what actions the project manager,project team member,or individual contributor will have in the project. Roles and responsibilities generally support the project scope since this is the required work for the project."
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: model:ir.module.module,shortdesc:project_hr_stakeholder.module_meta_information
-msgid "Project Management"
+=======
+#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_sp
+msgid "Project Sponsor"
 msgstr ""
 
 #. module: project_hr_stakeholder
@@ -574,24 +609,79 @@ msgid "Project Stakeholder"
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: field:project.hr.responsibility,code:0
-#: field:project.hr.role,code:0
-msgid "Code"
+#: help:project.hr.stakeholder,responsibilities_name_str:0
+msgid "Project Stakeholder responsibilities"
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: view:project.hr.stakeholder:0
-#: view:project.project:0
+#: help:project.hr.stakeholder,roles_name_str:0
+msgid "Project Stakeholder roles"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_stakeholder_tree
+#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_stakeholder_view
+#: view:project.hr.stakeholder:project_hr_stakeholder.view_project_hr_stakeholder_search
+msgid "Project Stakeholders"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: model:ir.ui.menu,name:project_hr_stakeholder.menu_responsibilities_config
+#: field:project.hr.stakeholder,responsibilities_name_str:0
+#: field:project.hr.stakeholder,responsibility_ids:0
+msgid "Responsibilities"
+>>>>>>> Updated translations template and slovene translation
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_responsible
+msgid "Responsible"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_role_tree
+#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_role_view
+#: model:ir.ui.menu,name:project_hr_stakeholder.menu_roles_config
+#: field:project.hr.stakeholder,role_ids:0
+#: field:project.hr.stakeholder,roles_name_str:0
+msgid "Roles"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: view:project.hr.stakeholder:project_hr_stakeholder.project_hr_stakeholder_edit
+#: view:project.project:project_hr_stakeholder.edit_project
 msgid "Roles and responsibilities"
 msgstr ""
 
 #. module: project_hr_stakeholder
+#: model:ir.ui.menu,name:project_hr_stakeholder.project_hr_stakeholder_menu
+#: model:ir.ui.menu,name:project_hr_stakeholder.project_hr_stakeholder_menu_project_config_address_book
+#: view:project.hr.stakeholder:project_hr_stakeholder.project_hr_stakeholder_edit
+#: view:project.hr.stakeholder:project_hr_stakeholder.project_hr_stakeholder_tree
+#: view:project.hr.stakeholder:project_hr_stakeholder.project_hr_stakeholder_tree_2
+#: view:project.project:project_hr_stakeholder.edit_project
+#: field:project.project,stakeholder_ids:0
+msgid "Stakeholders"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_tm
+msgid "Team Member"
+msgstr ""
+
+#. module: project_hr_stakeholder
+<<<<<<< HEAD
 #: field:project.hr.stakeholder,influence:0
 msgid "Influence"
 <<<<<<< HEAD
 >>>>>>> New revision
 =======
 >>>>>>> Various corrections
+=======
+#: help:project.hr.stakeholder,responsibility_ids:0
+#: help:project.hr.stakeholder,role_ids:0
+msgid "The assignment of the roles and responsibilities determines what actions the project manager,project team member,or individual contributor will have in the project. Roles and responsibilities generally support the project scope since this is the required work for the project."
+>>>>>>> Updated translations template and slovene translation
 msgstr ""
 
 #. module: project_hr_stakeholder
@@ -611,6 +701,7 @@ msgid "The one ultimately answerable for the correct and thorough completion of 
 msgstr ""
 
 #. module: project_hr_stakeholder
+<<<<<<< HEAD
 <<<<<<< HEAD
 #: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_informed
 msgid "Those who are kept up-to-date on progress, \n"
@@ -643,23 +734,32 @@ msgid "Those whose opinions are sought, \n"
 >>>>>>> Various corrections
 #: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_consulted
 msgid "Consulted"
+=======
+#: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_informed
+msgid "Those who are kept up-to-date on progress, \n"
+"            	often only on completion of the task or deliverable; \n"
+"            	and with whom there is just one-way communication\n"
+"            "
+>>>>>>> Updated translations template and slovene translation
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: field:project.hr.stakeholder,partner_id:0
-msgid "Partner"
+#: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_responsible
+msgid "Those who do the work to achieve the task. \n"
+"            	There is typically one role with a participation type of Responsible, \n"
+"            	although others can be delegated to assist in the work required.\n"
+"            	"
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_role_tree
-#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_role_view
-#: model:ir.ui.menu,name:project_hr_stakeholder.menu_roles_config
-#: field:project.hr.stakeholder,role_ids:0
-#: field:project.hr.stakeholder,roles_name_str:0
-msgid "Roles"
+#: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_consulted
+msgid "Those whose opinions are sought, \n"
+"            	typically subject matter experts; and with whom there is two-way communication.\n"
+"            	"
 msgstr ""
 
 #. module: project_hr_stakeholder
+<<<<<<< HEAD
 #: model:ir.module.module,description:project_hr_stakeholder.module_meta_information
 msgid " This module offers the possibility to register at project level the stakeholders involved in a project.\n"
 "        - It adds a 'Stakeholders' tab in the project form.\n"
@@ -671,5 +771,10 @@ msgid " This module offers the possibility to register at project level the stak
 >>>>>>> New revision
 =======
 >>>>>>> Various corrections
+=======
+#: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_responsibility_tree
+#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_responsibility_view
+msgid "responsibilities"
+>>>>>>> Updated translations template and slovene translation
 msgstr ""
 
