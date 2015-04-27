@@ -170,6 +170,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <menuitem id="project_hr_stakeholder_menu" 
 			name="Stakeholders" 
 			parent="analytic_plan.project_plan" 
@@ -190,6 +191,17 @@
 >>>>>>> New revision
 =======
 >>>>>>> Various corrections
+=======
+        <menuitem id="project_hr_stakeholder_menu" 
+			name="Stakeholders" 
+			parent="project.menu_project_management" 
+			sequence="2"
+			groups="project.group_project_manager,project.group_project_user" />
+		
+        <menuitem action="action_project_hr_stakeholder_tree" 
+        		id="menu_project_hr_stakeholder_view" 
+        		parent="project_hr_stakeholder_menu" 
+>>>>>>> Project stakeholders as stakeholders submenu
         		sequence="10"/>
            
     </data>
