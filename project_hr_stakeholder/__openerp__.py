@@ -28,24 +28,24 @@
     "website": "http://www.eficent.com",
 =======
     "name": "Project Stakeholder Management",
-    "version": "2.0",
+    "version": "2.0.1",
     "author": "Eficent",
     "website": "",
 >>>>>>> Various corrections
     "category": "Generic Modules/Projects & Services",
     "depends": [
                 "base",
-                "project",                       
+                "project",
                 ],
     "description": """ This module offers the possibility to register at project level the stakeholders involved in a project.
         - It adds a 'Stakeholders' tab in the project form.
-        - The stakeholder can be registered as a partner, or a contact person. 
+        - The stakeholder can be registered as a partner, or a contact person.
         - You can specify the roles and responsibilities of the stakeholders in this project.
         - You can maintain a master data for roles and responsibilities.
     """,
     "init_xml": [
                 ],
-    "update_xml": [    
+    "update_xml": [
         "project_hr_role.xml",
         "project_hr_responsibility.xml",
 <<<<<<< HEAD
@@ -61,7 +61,7 @@
     'demo_xml': [
 
     ],
-    'test':[
+    'test': [
     ],
     'installable': True,
     'active': False,
