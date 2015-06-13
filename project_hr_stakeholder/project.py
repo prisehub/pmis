@@ -117,18 +117,21 @@ from openerp.osv import fields, osv
 from openerp.tools.translate import _
 >>>>>>> Preparations for 8.0
 
-    
+
 class project(osv.osv):
     _name = "project.project"
     _inherit = "project.project"
- 
-    _columns = {        
-        'stakeholder_ids': fields.one2many('project.hr.stakeholder', 'project_id', 'Stakeholders'),                                                 
+
+    _columns = {
+        'stakeholder_ids': fields.one2many('project.hr.stakeholder', 'project_id', 'Stakeholders'),
     }
 
 project()
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 >>>>>>> New revision
 =======
 >>>>>>> Various corrections
+=======
+>>>>>>> Added group filters on stakeholders
