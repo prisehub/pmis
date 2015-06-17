@@ -80,7 +80,7 @@ This module offers the possibility to register at project level the stakeholders
     "website": "http://www.eficent.com",
 =======
     "name": "Project Stakeholder Management",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "author": "Eficent",
     "website": "",
 >>>>>>> Various corrections
@@ -88,6 +88,7 @@ This module offers the possibility to register at project level the stakeholders
     "depends": [
                 "base",
                 "project",
+                "analytic_plan",
                 ],
     "description": """ This module offers the possibility to register at project level the stakeholders involved in a project.
         - It adds a 'Stakeholders' tab in the project form.
