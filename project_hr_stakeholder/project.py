@@ -38,6 +38,7 @@ from openerp.tools.translate import _
 >>>>>>> Preparations for 8.0
 
 
+<<<<<<< HEAD:project_hr_stakeholder/project.py
 class project(osv.osv):
     _name = "project.project"
     _inherit = "project.project"
@@ -47,3 +48,6 @@ class project(osv.osv):
     }
 
 project()
+=======
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
+>>>>>>> Pep-8 spring cleaning!!!!!:project_hr_stakeholder/__init__.py
