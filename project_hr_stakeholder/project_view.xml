@@ -5,6 +5,9 @@
 #---------------------------------------------------------------------------------------------------------
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Ordering fields and bugfix (missing data import)
 #   Extend the project
 #---------------------------------------------------------------------------------------------------------
 
@@ -13,6 +16,7 @@
             <field name="name">project.project.form</field>
             <field name="model">project.project</field>
             <field name="type">form</field>
+<<<<<<< HEAD
             <field name="inherit_id" ref="project_charter.view_project_form"/>
             <field name="arch" type="xml">
             	<xpath expr='//form/sheet/notebook/page/notebook/page[@name="scope"]' position="before">
@@ -78,6 +82,41 @@
 =======
 =======
 >>>>>>> Various corrections
+=======
+            <field name="inherit_id" ref="project.edit_project"/>
+            <field name="arch" type="xml">
+            	<page string='Other Info' position="after">
+					<page groups="base.group_erp_manager" string="Stakeholders">                        
+                        <field name="stakeholder_ids" nolabel="1" context="{'default_project_id': active_id}">
+                        	<tree editable="top" string="Stakeholders">       
+			                	<field name="partner_id"/>           
+			                    <field name="role_ids" widget="many2many_tags" />                                        
+								<field name="responsibility_ids" widget="many2many_tags"/>
+								<field name="influence"/>
+			                </tree>
+	                        <form string="Stakeholders">
+			                	<group colspan="4" col="4">
+				                    <field name="project_id" readonly="1"/>         
+				                    <field name="partner_id"/>                   
+								</group>
+								<newline/>						                                        
+			                    <group colspan="6" col="6">
+			                    	<separator string="Roles and responsibilities" colspan="6"/>
+				                    <field name="role_ids" mode="tree,form" colspan="6"/>      
+				                    <field name="responsibility_ids" mode="tree,form" colspan="6"/>
+				                </group>									                
+				                <group colspan="6" col="6">	                                        
+				                    <field name="influence"/>	                    
+								</group>				                	        
+			                </form>
+                        </field>                                                    
+                    </page> 	            		
+				</page>	 				                            	                        
+            </field>            	        
+        </record>   	
+
+#---------------------------------------------------------------------------------------------------------
+>>>>>>> Ordering fields and bugfix (missing data import)
 #   Extend the menus
 #---------------------------------------------------------------------------------------------------------
 		<menuitem id="project_hr_stakeholder_menu" 
@@ -170,11 +209,8 @@
 -->
 >>>>>>> Various corrections
 
-#---------------------------------------------------------------------------------------------------------
-#   Extend the project
-#---------------------------------------------------------------------------------------------------------
 
-
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> New revision
 =======
@@ -294,5 +330,7 @@
         </record>   	
              
 >>>>>>> Various corrections
+=======
+>>>>>>> Ordering fields and bugfix (missing data import)
     </data>
 </openerp>
