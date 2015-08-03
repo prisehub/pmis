@@ -176,6 +176,7 @@ msgstr "Določite vloge udeležencev projekta."
 "POT-Creation-Date: 2015-01-30 08:02+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2015-01-30 09:06+0100\n"
 >>>>>>> Updated translations template and slovene translation
 =======
@@ -184,6 +185,9 @@ msgstr "Določite vloge udeležencev projekta."
 =======
 "PO-Revision-Date: 2015-07-18 16:11+0200\n"
 >>>>>>> Translations cleaning and 1 view+template correction
+=======
+"PO-Revision-Date: 2015-08-03 13:08+0200\n"
+>>>>>>> Translations and templates sync
 "Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>\n"
 "Language-Team: Slovenian <translate@matmoz.si>\n"
 "MIME-Version: 1.0\n"
@@ -210,7 +214,8 @@ msgstr "Svetovalec"
 
 #. module: project_hr_stakeholder
 #: field:project.hr.responsibility,create_uid:0
-#: field:project.hr.role,create_uid:0 field:project.hr.stakeholder,create_uid:0
+#: field:project.hr.role,create_uid:0
+#: field:project.hr.stakeholder,create_uid:0
 msgid "Created by"
 msgstr "Ustvaril"
 
@@ -264,7 +269,8 @@ msgstr "Zadnjič posodobil"
 
 #. module: project_hr_stakeholder
 #: field:project.hr.responsibility,write_date:0
-#: field:project.hr.role,write_date:0 field:project.hr.stakeholder,write_date:0
+#: field:project.hr.role,write_date:0
+#: field:project.hr.stakeholder,write_date:0
 msgid "Last Updated on"
 msgstr "Zadnjič posodobljeno"
 
