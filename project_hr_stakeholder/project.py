@@ -44,7 +44,11 @@ class project(osv.osv):
     _inherit = "project.project"
 
     _columns = {
-        'stakeholder_ids': fields.one2many('project.hr.stakeholder', 'project_id', 'Stakeholders'),
+        'stakeholder_ids': fields.one2many(
+            'project.hr.stakeholder',
+            'project_id',
+            'Stakeholders'
+        ),
     }
 
 project()
