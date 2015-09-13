@@ -45,6 +45,7 @@
         <record id="action_project_hr_responsibility_tree" model="ir.actions.act_window">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <field name="name">Responsibilities</field>
 =======
             <field name="name">responsibilities</field>
@@ -52,6 +53,9 @@
 =======
             <field name="name">responsibilities</field>
 >>>>>>> Various corrections
+=======
+            <field name="name">Responsibilities</field>
+>>>>>>> Project charter integration
             <field name="res_model">project.hr.responsibility</field>
             <field name="view_id" ref="view_project_hr_responsibility_tree"/>
             <field name="view_mode">tree,form</field>
@@ -59,6 +63,7 @@
             <field name="help">Define the responsibilities for stakeholders in projects.</field>
         </record>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,5 +80,9 @@
         <menuitem id="menu_responsibilities_config" name="Responsibilities" parent="base.menu_definitions" sequence="1"/>
         <menuitem action="action_project_hr_responsibility_tree" id="menu_project_hr_responsibility_view" parent="menu_responsibilities_config" sequence="1"/>                  	                    
 >>>>>>> Various corrections
+=======
+        <!--<menuitem id="menu_responsibilities_config" name="Responsibilities" parent="base.menu_definitions" sequence="1"/>-->
+        <menuitem action="action_project_hr_responsibility_tree" id="menu_project_hr_responsibility_view" parent="project_charter.menu_stakeholders_config" sequence="1"/>                  	                    
+>>>>>>> Project charter integration
     </data>
 </openerp>
