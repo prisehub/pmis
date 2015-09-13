@@ -28,7 +28,7 @@
     "website": "http://www.eficent.com",
 =======
     "name": "Project Stakeholder Management",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "author": "Eficent",
     "website": "",
 >>>>>>> Various corrections
