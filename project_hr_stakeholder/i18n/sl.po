@@ -174,6 +174,7 @@ msgstr "Določite vloge udeležencev projekta."
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2015-01-30 08:02+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,6 +194,10 @@ msgstr "Določite vloge udeležencev projekta."
 =======
 "POT-Creation-Date: 2015-09-13 08:41+0200\n"
 "PO-Revision-Date: 2015-09-13 09:16+0200\n"
+=======
+"POT-Creation-Date: 2015-09-13 18:04+0200\n"
+"PO-Revision-Date: 2015-09-13 18:04+0200\n"
+>>>>>>> Translations
 "Last-Translator: Matjaz Mozetic <m.mozetic@matmoz.si>\n"
 >>>>>>> Project charter integration
 "Language-Team: Slovenian <translate@matmoz.si>\n"
@@ -618,9 +623,18 @@ msgstr "Vloge projektnih deležnikov"
 
 #. module: project_hr_stakeholder
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: constraint:project.project:0
 msgid "Error! You cannot assign escalation to the same project!"
 msgstr "Napaka! Projekta ne morete stopnjevati samega vase!"
+=======
+#: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_stakeholder_tree
+#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_stakeholder_view
+#: view:project.hr.stakeholder:project_hr_stakeholder.view_project_hr_stakeholder_search
+#: view:project.project:project_hr_stakeholder.edit_project
+msgid "Project Stakeholders"
+msgstr "Projektni deležniki"
+>>>>>>> Translations
 
 #. module: project_hr_stakeholder
 #: model:project.hr.role,description:project_hr_stakeholder.project_hr_role_tm
