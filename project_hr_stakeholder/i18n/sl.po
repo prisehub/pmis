@@ -175,6 +175,7 @@ msgstr "Določite vloge udeležencev projekta."
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2015-01-30 08:02+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,6 +199,10 @@ msgstr "Določite vloge udeležencev projekta."
 "POT-Creation-Date: 2015-09-13 18:04+0200\n"
 "PO-Revision-Date: 2015-09-13 18:04+0200\n"
 >>>>>>> Translations
+=======
+"POT-Creation-Date: 2015-09-24 13:00+0200\n"
+"PO-Revision-Date: 2015-09-24 13:00+0200\n"
+>>>>>>> Translations and translation templates update
 "Last-Translator: Matjaz Mozetic <m.mozetic@matmoz.si>\n"
 >>>>>>> Project charter integration
 "Language-Team: Slovenian <translate@matmoz.si>\n"
@@ -637,6 +642,7 @@ msgstr "Projektni deležniki"
 >>>>>>> Translations
 
 #. module: project_hr_stakeholder
+<<<<<<< HEAD
 #: model:project.hr.role,description:project_hr_stakeholder.project_hr_role_tm
 msgid "Dept. Editorial: Montse Jané"
 msgstr "Pomočnik urednika: Montse Jané"
@@ -656,6 +662,27 @@ msgstr ""
 "            se lahko delegira tudi druge, da pomagajo pri delu, ko je "
 "potrebno.\n"
 "            "
+=======
+#: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_responsibility_tree
+#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_responsibility_view
+#: field:project.hr.stakeholder,responsibilities_name_str:0
+#: field:project.hr.stakeholder,responsibility_ids:0
+msgid "Responsibilities"
+msgstr "Odgovornosti"
+
+#. module: project_hr_stakeholder
+#: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_responsible
+msgid "Responsible"
+msgstr "Odgovorni"
+
+#. module: project_hr_stakeholder
+#: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_role_tree
+#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_role_view
+#: field:project.hr.stakeholder,role_ids:0
+#: field:project.hr.stakeholder,roles_name_str:0
+msgid "Roles"
+msgstr "Vloge"
+>>>>>>> Translations and translation templates update
 
 #. module: project_hr_stakeholder
 #: field:project.hr.responsibility,name:0

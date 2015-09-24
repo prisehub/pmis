@@ -40,8 +40,8 @@ msgstr ""
 >>>>>>> Various corrections
 =======
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-13 18:04+0200\n"
-"PO-Revision-Date: 2015-09-13 18:04+0200\n"
+"POT-Creation-Date: 2015-09-24 13:00+0200\n"
+"PO-Revision-Date: 2015-09-24 13:00+0200\n"
 "Last-Translator: Matjaz Mozetic <m.mozetic@matmoz.si>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -462,7 +462,7 @@ msgstr "Última Actualización por"
 #: field:project.hr.role,write_date:0 field:project.hr.stakeholder,write_date:0
 #, fuzzy
 msgid "Last Updated on"
-msgstr "Última Actualización por"
+msgstr "Última Actualización el"
 
 #. module: project_hr_stakeholder
 <<<<<<< HEAD
@@ -759,7 +759,6 @@ msgstr "Involucrados del Proyecto"
 #. module: project_hr_stakeholder
 #: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_responsibility_tree
 #: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_responsibility_view
-#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_role_view
 #: field:project.hr.stakeholder,responsibilities_name_str:0
 #: field:project.hr.stakeholder,responsibility_ids:0
 msgid "Responsibilities"
@@ -783,6 +782,7 @@ msgstr "Responsable"
 #. module: project_hr_stakeholder
 #: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_role_tree
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_role_view
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -794,6 +794,9 @@ msgstr "Responsable"
 >>>>>>> Various corrections
 =======
 >>>>>>> Translations
+=======
+#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_role_view
+>>>>>>> Translations and translation templates update
 #: field:project.hr.stakeholder,role_ids:0
 #: field:project.hr.stakeholder,roles_name_str:0
 msgid "Roles"

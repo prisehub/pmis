@@ -39,6 +39,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2015-01-30 08:02+0000\n"
 "PO-Revision-Date: 2015-01-30 08:02+0000\n"
 >>>>>>> Updated translations template and slovene translation
@@ -50,6 +51,10 @@ msgstr ""
 "POT-Creation-Date: 2015-09-13 16:07+0000\n"
 "PO-Revision-Date: 2015-09-13 16:07+0000\n"
 >>>>>>> Translations
+=======
+"POT-Creation-Date: 2015-09-24 10:59+0000\n"
+"PO-Revision-Date: 2015-09-24 10:59+0000\n"
+>>>>>>> Translations and translation templates update
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -553,6 +558,7 @@ msgid "Project Stakeholder responsibilities"
 #: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_responsibility_tree
 #: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_responsibility_view
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_role_view
 >>>>>>> Project charter integration
 =======
@@ -562,6 +568,8 @@ msgid "Project Stakeholder responsibilities"
 #: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_responsibility_view
 #: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_role_view
 >>>>>>> Project charter integration
+=======
+>>>>>>> Translations and translation templates update
 #: field:project.hr.stakeholder,responsibilities_name_str:0
 #: field:project.hr.stakeholder,responsibility_ids:0
 msgid "Responsibilities"
