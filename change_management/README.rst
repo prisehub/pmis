@@ -31,9 +31,9 @@ Contributors
 Maintainer
 ----------
 
-.. image:: http://www.matmoz.si/wp-content/uploads/2014/11/128x128.png
-   :alt: MATMOZ d.o.o.
-   :target: http://www.matmoz.si
+.. image:: http://www.project.expert/logo.png
+   :alt: Project Expert
+   :target: http://project.expert
 
 This module is maintained by MATMOZ d.o.o.
 
