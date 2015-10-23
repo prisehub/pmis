@@ -39,6 +39,7 @@
         "analytic_plan",
         "project_charter"
     ],
+<<<<<<< HEAD
     "description": """
 This module offers the possibility to register at project level the stakeholders involved in a project.
     - It adds a 'Stakeholders' tab in the project form.
@@ -58,6 +59,25 @@ This module offers the possibility to register at project level the stakeholders
         "security/ir.model.access.csv",
         "security/project_security.xml",
         "project_hr_stakeholder_data.xml",
+=======
+    'website': 'http://project.expert',
+    'category': 'Project Management',
+    'license': 'AGPL-3',
+    'depends': [
+        'base',
+        'project',
+        'analytic_plan',
+        'project_charter'
+    ],
+    'data': [
+        'project_hr_role.xml',
+        'project_hr_responsibility.xml',
+        'project_hr_stakeholder.xml',
+        'project_view.xml',
+        'security/ir.model.access.csv',
+        'security/project_security.xml',
+        'project_hr_stakeholder_data.xml',
+>>>>>>> Enhance the module descriptions
     ],
     'demo': [
 
