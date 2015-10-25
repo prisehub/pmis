@@ -20,14 +20,12 @@
 #
 ##############################################################################
 {
-    "name": "Change Management",
-    "version": "2.5",
-    "author":   "Matmoz d.o.o.",
-    "website":  "http://www.matmoz.si",
-    "category": "Project Management",
-    "license": "AGPL-3",
-    "contributors": [
-        "Matjaž Mozetič <m.mozetic@matmoz.si>",
+    'name': 'Change Management',
+    'version': '8.0.2.5.1',
+    'author':   'Matmoz d.o.o., '
+                'Project Expert Team',
+    'contributors': [
+        'Matjaž Mozetič <m.mozetic@matmoz.si>',
     ],
     "summary": "Change Management integrated with Stakeholders Requirements",
     "depends": ["project", "project_charter", "project_hr_stakeholder"],
