@@ -39,10 +39,9 @@
         "view/change_management_proximity_view.xml",
         "view/change_management_menus.xml"
     ],
-    "demo": ["demo/change_management_demo.xml"],
-    "test": ["test/test_change_management.yml"],
-    "license": "AGPL-3",
-    "installable": True,
-    "application": True,
-    "active": False,
+    'demo': ['demo/change_management_demo.xml'],
+    'test': ['test/test_change_management.yml'],
+    'installable': True,
+    'application': True,
+    'active': False,
 }
