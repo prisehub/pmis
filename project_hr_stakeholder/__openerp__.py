@@ -22,6 +22,7 @@
 
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "Project Stakeholder management",
     "version": "1.0",
     "author": "Eficent",
@@ -38,6 +39,16 @@
         "project",
         "analytic_plan",
         "project_charter"
+=======
+    'name': 'Project Stakeholder Management',
+    'version': '8.0.2.0.7',
+    'author': 'Eficent, '
+              'Matmoz d.o.o., '
+              'Project Expert Team',
+    'contributors': [
+        'Jordi Ballester <jordi.ballester@eficent.com>',
+        'Matjaž Mozetič <m.mozetic@matmoz.si>',
+>>>>>>> Fixes
     ],
 <<<<<<< HEAD
     "description": """
