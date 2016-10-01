@@ -4,23 +4,26 @@
 
 {
     'name': 'Change Management',
-    'version': '8.0.2.5.7',
+    'version': '8.0.3.0.0',
     'author': 'Matmoz d.o.o., '
               'Project Expert Team',
     'contributors': [
         'Matjaž Mozetič <m.mozetic@matmoz.si>',
     ],
-    "summary": "Change Management integrated with Stakeholders Requirements",
-    "depends": ["project", "project_charter", "project_hr_stakeholder"],
-    "data": [
-        "data/change_management_data.xml",
-        "data/change_management_sequence.xml",
-        "security/ir.model.access.csv",
-        "view/project_task_view.xml",
-        "view/change_management_view.xml",
-        "view/change_management_category_view.xml",
-        "view/change_management_proximity_view.xml",
-        "view/change_management_menus.xml"
+    'website': 'http://project.expert',
+    'category': 'Project Management',
+    'license': 'AGPL-3',
+    'summary': 'Change Management integrated with Stakeholders Requirements',
+    'depends': ['project', 'project_charter'],
+    'data': [
+        'data/change_management_data.xml',
+        'data/change_management_sequence.xml',
+        'security/ir.model.access.csv',
+        'view/project_task_view.xml',
+        'view/change_management_view.xml',
+        'view/change_management_category_view.xml',
+        'view/change_management_proximity_view.xml',
+        'view/change_management_menus.xml'
     ],
     'demo': ['demo/change_management_demo.xml'],
     'test': ['test/test_change_management.yml'],
