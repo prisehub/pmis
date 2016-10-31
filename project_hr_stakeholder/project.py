@@ -33,11 +33,12 @@ from tools.translate import _
 >>>>>>> Various corrections
 =======
 from openerp import tools
-from openerp.osv import fields, osv
+from openerp import fields, models
 from openerp.tools.translate import _
 >>>>>>> Preparations for 8.0
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD:project_hr_stakeholder/project.py
 class project(osv.osv):
     _name = "project.project"
@@ -55,3 +56,14 @@ project()
 =======
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 >>>>>>> Pep-8 spring cleaning!!!!!:project_hr_stakeholder/__init__.py
+=======
+class Project(models.Model):
+    _name = "project.project"
+    _inherit = "project.project"
+
+    stakeholder_ids = fields.One2many(
+        'project.hr.stakeholder',
+        'project_id',
+        'Stakeholders'
+    )
+>>>>>>> Little cleaning

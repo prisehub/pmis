@@ -33,21 +33,16 @@ from tools.translate import _
 >>>>>>> Various corrections
 =======
 from openerp import tools
-from openerp.osv import fields, osv
+from openerp import fields, models
 from openerp.tools.translate import _
 >>>>>>> Preparations for 8.0
 
 
-class project_hr_role(osv.osv):
+class ProjectHrRole(models.Model):
 
     _name = "project.hr.role"
     _description = 'Project Role'
 
-    _columns = {
-        'code': fields.char('Code', size=4, required=True),
-        'name': fields.char('Name', size=128, required=True, translate=True),
-        'description': fields.text('Description', translate=True),
-    }
-
-
-project_hr_role()
+    code = fields.Char('Code', size=4, required=True)
+    name = fields.Char('Name', size=128, required=True, translate=True)
+    description = fields.Text('Description', translate=True)
