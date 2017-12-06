@@ -41,7 +41,7 @@
         "project_charter"
 =======
     'name': 'Project Stakeholder Management',
-    'version': '8.0.2.0.8',
+    'version': '8.0.2.0.9',
     'author': 'Eficent, '
               'Matmoz d.o.o., '
               'Project Expert Team',

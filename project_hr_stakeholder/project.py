@@ -33,7 +33,7 @@ from tools.translate import _
 >>>>>>> Various corrections
 =======
 from openerp import tools
-from openerp import fields, models
+from openerp import fields, models, api
 from openerp.tools.translate import _
 >>>>>>> Preparations for 8.0
 
@@ -62,8 +62,20 @@ class Project(models.Model):
     _inherit = "project.project"
 
     stakeholder_ids = fields.One2many(
-        'project.hr.stakeholder',
-        'project_id',
-        'Stakeholders'
+        comodel_name='project.hr.stakeholder',
+        inverse_name='project_id',
+        string='Stakeholders'
     )
+<<<<<<< HEAD
 >>>>>>> Little cleaning
+=======
+
+    stakeholders_count = fields.Integer(
+        compute='_compute_stakehold_count', type='integer'
+    )
+
+    @api.depends('stakeholder_ids')
+    def _compute_stakehold_count(self):
+        for record in self:
+            record.cr_count = len(record.stakeholder_ids)
+>>>>>>> Migrate project_wbs to new api, sort out actions on change management
