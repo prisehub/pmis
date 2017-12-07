@@ -77,5 +77,9 @@ class Project(models.Model):
     @api.depends('stakeholder_ids')
     def _compute_stakehold_count(self):
         for record in self:
+<<<<<<< HEAD
             record.cr_count = len(record.stakeholder_ids)
 >>>>>>> Migrate project_wbs to new api, sort out actions on change management
+=======
+            record.stakeholders_count = len(record.stakeholder_ids)
+>>>>>>> Correct typo in count field
