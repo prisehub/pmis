@@ -25,6 +25,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from openerp.osv import fields, osv
 =======
 import tools
@@ -36,6 +37,9 @@ from openerp import tools
 from openerp import fields, models, api
 from openerp.tools.translate import _
 >>>>>>> Preparations for 8.0
+=======
+from openerp import fields, models, api
+>>>>>>> Small fixes; TODO: solve project_wbs actions
 
 
 <<<<<<< HEAD
