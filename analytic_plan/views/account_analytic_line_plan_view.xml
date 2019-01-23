@@ -97,13 +97,15 @@
                         string="Others"
                         domain="[('journal_id.type','in',('cash','general','situation'))]"/>
                 <separator/>
-                <filter string="My Entries" domain="[('user_id','=',uid)]"/>
+                <filter name="myentries" string="My Entries" domain="[('user_id','=',uid)]"/>
                 <field name="account_id"/>
                 <field name="user_id"/>
                 <group string="Group By..." expand="0">
                     <filter string="Analytic Account"
+			    name="byaccount"
                             context="{'group_by':'account_id'}"/>
                     <filter string="Fin. Account"
+			    name="byfinaccount"
                             context="{'group_by':'general_account_id'}"/>
                     <filter string="Journal"
                             context="{'group_by':'journal_id'}"
@@ -113,8 +115,10 @@
                             name="group_version"/>
                     <separator/>
                     <filter string="Product"
+			    name="byproduct"
                             context="{'group_by':'product_id'}"/>
                     <filter string="User"
+			    name="byuser"
                             context="{'group_by':'user_id'}"/>
                     <separator/>
                     <filter string="Date"
