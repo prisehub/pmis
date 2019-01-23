@@ -42,6 +42,7 @@ Contributors
 * Matmoz d.o.o. <http://www.matmoz.si>
 * Luxim d.o.o. <https://www.luxim.si>
 * Deneroteam <http://www.deneroteam.com>
+* PriseHub <https://www.prisehub.com>
 
 Maintainer
 ----------

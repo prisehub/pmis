@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <menuitem id="project_management"
+			name="Manage"
+			parent="project.menu_main_pm"
+			sequence="3"/>
+		<menuitem id="menu_tasks_config_title"
+			name="Tasks"
+			parent="project.menu_project_config"
+			sequence="1"/>
+			<menuitem id="project.menu_tasks_config"
+				name="GTD"
+				parent="menu_tasks_config_title"
+				sequence="1"/>
+			<menuitem id="project.menu_task_types_view"
+				name="Task Stages"
+				action="project.open_task_type_form"
+				parent="menu_tasks_config_title"
+				sequence="2"/>
+		<menuitem id="menu_stakeholders_config"
+			name="Stakeholders"
+			parent="project.menu_project_config"
+			sequence="3"/>
+        <!-- Inherited Views -->
+        <!-- project.project -->
+        <!-- form -->
+        <record id="view_project_form" model="ir.ui.view">
+            <field name="name">view.project.form</field>
+            <field name="model">project.project</field>
+            <field name="inherit_id" ref="project.edit_project"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form/sheet/notebook/page" position="before">
+                    <page name="overview" string="Overview">
+                        <notebook name="submenu">
+			    <page name="purpose" string="Project Purpose">
+				<group string="Project Purpose">
+				    <field name="notes" nolabel="1" widget="html" type="html"/>
+				</group>
+			    </page>
+                            <page string="Scope" name="scope">
+				<group string="Constraints">
+				    <group>
+					<field name="project_constraints_ids" nolabel="1">
+					    <tree editable="bottom">
+						<field name="constraints"/>
+					    </tree>
+					    <form>
+						<group>
+						    <field name="constraints" required="1"/>
+						</group>
+					    </form>
+					</field>
+				    </group>
+				</group>
+				<group string="Success and Acceptance Criteria">
+				    <field name="project_success_ids" nolabel="1">
+					<tree editable="bottom">
+					    <field name="success"/>
+					</tree>
+					<form>
+					    <group>
+						<field name="success" required="1"/>
+					    </group>
+					</form>
+				    </field>
+				</group>
+                            </page>
+                        </notebook>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</openerp>

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #    Copyright 2015 Matmoz d.o.o. (Matjaž Mozetič)
 #    Copyright 2015 Eficent (Jordi Ballester Alomar)
 #    Copyright 2017 Deneroteam (Vijaykumar Baladaniya)
