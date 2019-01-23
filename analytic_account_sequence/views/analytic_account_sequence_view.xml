@@ -3,7 +3,7 @@
     <record id="analytic_account_sequence_view" model="ir.ui.view">
         <field name="model">analytic.account.sequence</field>
         <field name="arch" type="xml">
-            <form string="Sequences" version="7.0">
+            <form string="Sequences">
               <sheet>
                 <group col="4">
                     <field name="analytic_account_id"/>
