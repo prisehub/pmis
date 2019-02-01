@@ -10,15 +10,13 @@ stakeholders involved in a project.
 
 * It adds a 'Stakeholders' tab in the project form.
 * The stakeholder can be registered as a partner, or a contact person.
-* You can specify the roles and responsibilities of the stakeholders in
-  this project.
+* You can specify the roles and responsibilities of the stakeholders in this project.
 * You can maintain a master data for roles and responsibilities.
 
 Installation
 ============
 
-* The module automatically takes care of its dependencies and is ready for
-  use after the installation
+* The module automatically takes care of its dependencies and is ready for use after the installation
 
 Credits
 =======

@@ -1,59 +1,20 @@
 # Translation of OpenERP Server.
 # This file contains the translation of the following modules:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 # 	* project_hr_stakeholder
-=======
-#	* project_hr_stakeholder
->>>>>>> New revision
-=======
-#	* project_hr_stakeholder
->>>>>>> Various corrections
-=======
-# 	* project_hr_stakeholder
->>>>>>> Translations cleaning and 1 view+template correction
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenERP Server 6.0.3\n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-02 07:47+0200\n"
 "PO-Revision-Date: 2016-06-02 07:47+0200\n"
 "Last-Translator: Matjaz Mozetic <m.mozetic@matmoz.si>\n"
 "Language-Team: \n"
 "Language: es\n"
-=======
-=======
->>>>>>> Various corrections
-"Report-Msgid-Bugs-To: support@openerp.com\n"
-"POT-Creation-Date: 2012-06-18 20:50+0000\n"
-"PO-Revision-Date: 2015-08-03 13:08+0200\n"
-"Last-Translator: Jordi Ballester <jordi.ballester@eficent.com>\n"
-"Language-Team: \n"
-<<<<<<< HEAD
->>>>>>> New revision
-=======
->>>>>>> Various corrections
-=======
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-24 13:00+0200\n"
-"PO-Revision-Date: 2015-09-24 13:00+0200\n"
-"Last-Translator: Matjaz Mozetic <m.mozetic@matmoz.si>\n"
-"Language-Team: \n"
-"Language: es\n"
->>>>>>> Top menu name is not getting translated, adding string
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 "X-Generator: Poedit 1.8.7.1\n"
 
 #. module: project_hr_stakeholder
@@ -165,171 +126,10 @@ msgstr "Define los roles de los involucrados en los proyectos."
 #: field:project.hr.responsibility,description:0
 #: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_edit
 #: field:project.hr.role,description:0 field:project.hr.stakeholder,name:0
-=======
-=======
->>>>>>> Various corrections
-=======
-"Language: es\n"
-"X-Generator: Poedit 1.8.2\n"
->>>>>>> Translations cleaning and 1 view+template correction
-
-#. module: project_hr_stakeholder
-#: model:ir.model,name:project_hr_stakeholder.model_project_hr_role
-#: view:project.hr.role:0
-msgid "Project Role"
-msgstr "Rol en el Proyecto"
-
-#. module: project_hr_stakeholder
-#: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_responsible
-msgid "Responsible"
-msgstr "Responsable"
-
-#. module: project_hr_stakeholder
-#: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_informed
-msgid "Informed"
-msgstr "Informado"
-
-#. module: project_hr_stakeholder
-#: model:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_role_tree
-msgid "Define the roles for stakeholders in projects."
-msgstr "Define los roles de los involucrados en los proyectos."
-=======
-"X-Generator: Poedit 1.8.4\n"
->>>>>>> Top menu name is not getting translated, adding string
-
-#. module: project_hr_stakeholder
-#: help:project.hr.stakeholder,responsibility_ids:0
-#: help:project.hr.stakeholder,role_ids:0
-#, fuzzy
-msgid ""
-"\n"
-"            The assignment of the roles and responsibilities determines what "
-"actions the project manager,\n"
-"            project team member,or individual contributor will have in the "
-"project. Roles and responsibilities\n"
-"             generally support the project scope since this is the required "
-"work for the project.\n"
-"            "
-msgstr ""
-"La asignación de los roles  y responsabilidades determina las acciones que "
-"el director del proyecto, miembro del equipo del proyecto, o colaborador "
-"individual y realizarán en el proyecto. Los roles y responsabilidades en "
-"general apoyan el alcance del proyecto ya que este es el trabajo requerido "
-"para el proyecto."
-
-#. module: project_hr_stakeholder
-#: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_accountable
-msgid "Accountable"
-msgstr "Aprobador"
-
-#. module: project_hr_stakeholder
-#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_bp
-msgid "Business partner"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: model:project.hr.role,description:project_hr_stakeholder.project_hr_role_bp
-msgid ""
-"Business partners.\n"
-"Business partners are external organizations that have a special "
-"relationship with\n"
-"the enterprise, sometimes attained through a certification process. Business "
-"partners provide specialized\n"
-"expertise or fill a specified role such as installation, customization, "
-"training, or support.\n"
-"            "
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: field:project.hr.responsibility,code:0 field:project.hr.role,code:0
-msgid "Code"
-msgstr "Código"
-
-#. module: project_hr_stakeholder
-#: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_consulted
-msgid "Consulted"
-msgstr "Consultado"
-
-#. module: project_hr_stakeholder
-#: field:project.hr.responsibility,create_uid:0
-#: field:project.hr.role,create_uid:0 field:project.hr.stakeholder,create_uid:0
-#, fuzzy
-msgid "Created by"
-msgstr "Creado por"
-
-#. module: project_hr_stakeholder
-#: field:project.hr.responsibility,create_date:0
-#: field:project.hr.role,create_date:0
-#: field:project.hr.stakeholder,create_date:0
-#, fuzzy
-msgid "Created on"
-msgstr "Creado el"
-
-#. module: project_hr_stakeholder
-#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_cu
-msgid "Customer or User"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: model:project.hr.role,description:project_hr_stakeholder.project_hr_role_cu
-msgid ""
-"Customers and users.\n"
-"Customers are the persons or organizations who will approve and manage the\n"
-"project’s product, service, or result. Users are the persons or "
-"organizations who will use the project’s\n"
-"product, service, or result. Customers and users may be internal or external "
-"to the performing organization\n"
-"and may also exist in multiple layers. For example, the customers for a new "
-"pharmaceutical product\n"
-"could include the doctors who prescribe it, the patients who use it and the "
-"insurers who pay for it. In some\n"
-"application areas, customers and users are synonymous, while in others, "
-"customers refer to the entity\n"
-"acquiring the project’s product, and users refer to those who will directly "
-"utilize the project’s product.\n"
-"            "
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: model:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_responsibility_tree
-#: model:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_stakeholder_tree
-msgid "Define the responsibilities for stakeholders in projects."
-msgstr "Definir las responsabilidades de los involucrados en los proyectos."
-
-#. module: project_hr_stakeholder
-#: model:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_role_tree
-msgid "Define the roles for stakeholders in projects."
-msgstr "Define los roles de los involucrados en los proyectos."
-
-#. module: project_hr_stakeholder
-<<<<<<< HEAD
-#: view:project.hr.responsibility:0
-<<<<<<< HEAD
-#: field:project.hr.responsibility,description:0
-#: view:project.hr.role:0
-#: field:project.hr.role,description:0
-#: field:project.hr.stakeholder,name:0
-<<<<<<< HEAD
->>>>>>> New revision
-=======
->>>>>>> Various corrections
-=======
-#: field:project.hr.responsibility,description:0 view:project.hr.role:0
-=======
-#: view:project.hr.responsibility:project_hr_stakeholder.view_project_hr_responsibility_edit
-#: field:project.hr.responsibility,description:0
-#: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_edit
->>>>>>> Top menu name is not getting translated, adding string
-#: field:project.hr.role,description:0 field:project.hr.stakeholder,name:0
->>>>>>> Translations cleaning and 1 view+template correction
 msgid "Description"
 msgstr "Descripción"
 
 #. module: project_hr_stakeholder
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 #: field:project.hr.responsibility,display_name:0
 #: field:project.hr.role,display_name:0
 #: field:project.hr.stakeholder,display_name:0
@@ -337,8 +137,6 @@ msgid "Display Name"
 msgstr ""
 
 #. module: project_hr_stakeholder
-=======
->>>>>>> Translations
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_fm
 #, fuzzy
 msgid "Functional Manager"
@@ -367,17 +165,11 @@ msgid "Group By"
 msgstr "Group By..."
 
 #. module: project_hr_stakeholder
-<<<<<<< HEAD
-=======
->>>>>>> Top menu name is not getting translated, adding string
-=======
->>>>>>> Translations
 #: field:project.hr.responsibility,id:0 field:project.hr.role,id:0
 #: field:project.hr.stakeholder,id:0
 #, fuzzy
 msgid "ID"
 msgstr "Id"
-<<<<<<< HEAD
 
 #. module: project_hr_stakeholder
 #: field:project.hr.stakeholder,influence:0
@@ -413,76 +205,10 @@ msgstr "Última Actualización el"
 
 #. module: project_hr_stakeholder
 #: field:project.hr.responsibility,name:0 field:project.hr.role,name:0
-=======
-=======
->>>>>>> Various corrections
-#: model:ir.model,name:project_hr_stakeholder.model_project_hr_responsibility
-#: view:project.hr.responsibility:0
-msgid "Project Responsibility"
-msgstr "Responsabilidad en el Proyecto"
-
-#. module: project_hr_stakeholder
-#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_sp
-msgid "Project Sponsor"
-msgstr "Patrocinador del Proyecto"
-
-#. module: project_hr_stakeholder
-#: model:project.hr.role,description:project_hr_stakeholder.project_hr_role_pm
-msgid "Annabel Mercedes Piqué"
-msgstr "Annabel Mercedes Piqué"
-
-#. module: project_hr_stakeholder
-#: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_stakeholder_tree
-#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_stakeholder_view
-#: view:project.hr.stakeholder:0
-msgid "Project Stakeholders"
-msgstr "Involucrados del Proyecto"
-=======
->>>>>>> Top menu name is not getting translated, adding string
-
-#. module: project_hr_stakeholder
-#: field:project.hr.stakeholder,influence:0
-msgid "Influence"
-msgstr "Observaciones"
-
-#. module: project_hr_stakeholder
-#: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_informed
-msgid "Informed"
-msgstr "Informado"
-
-#. module: project_hr_stakeholder
-#: field:project.hr.responsibility,write_uid:0
-#: field:project.hr.role,write_uid:0 field:project.hr.stakeholder,write_uid:0
-#, fuzzy
-msgid "Last Updated by"
-msgstr "Última Actualización por"
-
-#. module: project_hr_stakeholder
-#: field:project.hr.responsibility,write_date:0
-#: field:project.hr.role,write_date:0 field:project.hr.stakeholder,write_date:0
-#, fuzzy
-msgid "Last Updated on"
-msgstr "Última Actualización el"
-
-#. module: project_hr_stakeholder
-<<<<<<< HEAD
-#: field:project.hr.responsibility,name:0
-#: field:project.hr.role,name:0
-<<<<<<< HEAD
->>>>>>> New revision
-=======
->>>>>>> Various corrections
-=======
-#: field:project.hr.responsibility,name:0 field:project.hr.role,name:0
->>>>>>> Translations cleaning and 1 view+template correction
 msgid "Name"
 msgstr "Nombre"
 
 #. module: project_hr_stakeholder
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_og
 msgid "Organizational Group"
 msgstr ""
@@ -519,125 +245,22 @@ msgstr "Empresa"
 #. module: project_hr_stakeholder
 #: model:ir.model,name:project_hr_stakeholder.model_project_project
 #: view:project.hr.stakeholder:project_hr_stakeholder.view_project_hr_stakeholder_search
-=======
-=======
->>>>>>> Various corrections
-#: model:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_responsibility_tree
-#: model:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_stakeholder_tree
-msgid "Define the responsibilities for stakeholders in projects."
-msgstr "Definir las responsabilidades de los involucrados en los proyectos."
-
-#. module: project_hr_stakeholder
-#: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_informed
-msgid ""
-"Those who are kept up-to-date on progress, \n"
-"            \toften only on completion of the task or deliverable; \n"
-"            \tand with whom there is just one-way communication\n"
-"            "
-msgstr "Este rol debe ser informado sobre el progreso y los resultados del trabajo. A diferencia del Consultado, la comunicación es unidireccional.            "
-=======
-#: view:project.project:project_hr_stakeholder.edit_project
-#, fuzzy
-msgid "Other Info"
-msgstr "Otra Información"
->>>>>>> Top menu name is not getting translated, adding string
-=======
-#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_og
-msgid "Organizational Group"
-msgstr ""
->>>>>>> Translations
-
-#. module: project_hr_stakeholder
-#: model:project.hr.role,description:project_hr_stakeholder.project_hr_role_og
-msgid ""
-"Organizational groups.\n"
-"Organizational groups are internal stakeholders who are affected by the "
-"activities\n"
-"of the project team. Examples of various business elements of an "
-"organization that may be affected by\n"
-"the project include marketing and sales, human resources, legal, finance, "
-"operations, manufacturing, and\n"
-"customer service. These groups support the business environment where "
-"projects are executed, and\n"
-"are therefore affected by the activities of the project. As a result, there "
-"is generally a significant amount\n"
-"of interaction between the various business elements of an organization and "
-"the project team as they\n"
-"work together to achieve project goals. These groups may provide input to "
-"requirements and accept\n"
-"deliverables necessary for a smooth transition to production or related "
-"operations.\n"
-"            "
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: view:project.hr.stakeholder:project_hr_stakeholder.view_project_hr_stakeholder_search
-#: field:project.hr.stakeholder,partner_id:0
-msgid "Partner"
-msgstr "Empresa"
-
-#. module: project_hr_stakeholder
-#: model:ir.model,name:project_hr_stakeholder.model_project_project
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> New revision
-=======
->>>>>>> Various corrections
-=======
-#: view:project.hr.stakeholder:project_hr_stakeholder.view_project_hr_stakeholder_search
->>>>>>> Translations
 #: field:project.hr.stakeholder,project_id:0
 msgid "Project"
 msgstr "Proyecto"
 
 #. module: project_hr_stakeholder
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_pm
 msgid "Project Manager"
 msgstr "Responsable de Proyectos"
 
 #. module: project_hr_stakeholder
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> Various corrections
-#: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_accountable
-msgid "Accountable"
-msgstr "Aprobador"
-
-#. module: project_hr_stakeholder
-<<<<<<< HEAD
->>>>>>> New revision
-#: field:project.hr.stakeholder,contact_id:0
-msgid "Contact"
-msgstr "Contacto"
-
-#. module: project_hr_stakeholder
-<<<<<<< HEAD
-=======
->>>>>>> Various corrections
-#: help:project.hr.stakeholder,responsibilities_name_str:0
-msgid "Project Stakeholder responsibilities"
-msgstr "Responsabilidades del Involucrado en el Proyecto"
-=======
-=======
-#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_pm
-msgid "Project Manager"
-msgstr "Responsable de Proyectos"
-
-#. module: project_hr_stakeholder
->>>>>>> Top menu name is not getting translated, adding string
 #: model:ir.model,name:project_hr_stakeholder.model_project_hr_responsibility
 #: view:project.hr.responsibility:project_hr_stakeholder.view_project_hr_responsibility_edit
 #: view:project.hr.responsibility:project_hr_stakeholder.view_project_hr_responsibility_search
 #: view:project.hr.responsibility:project_hr_stakeholder.view_project_hr_responsibility_tree
 msgid "Project Responsibility"
 msgstr "Responsabilidad en el Proyecto"
-<<<<<<< HEAD
->>>>>>> Top menu name is not getting translated, adding string
 
 #. module: project_hr_stakeholder
 #: model:ir.model,name:project_hr_stakeholder.model_project_hr_role
@@ -651,37 +274,6 @@ msgstr "Rol en el Proyecto"
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_sp
 msgid "Project Sponsor"
 msgstr "Patrocinador del Proyecto"
-=======
-=======
->>>>>>> Various corrections
-#: help:project.hr.stakeholder,responsibilities_name_str:0
-msgid "Project Stakeholder responsibilities"
-msgstr "Responsabilidades del Involucrado en el Proyecto"
-=======
->>>>>>> Top menu name is not getting translated, adding string
-
-#. module: project_hr_stakeholder
-#: model:ir.model,name:project_hr_stakeholder.model_project_hr_role
-#: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_edit
-#: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_search
-#: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_tree
-msgid "Project Role"
-msgstr "Rol en el Proyecto"
-
-#. module: project_hr_stakeholder
-<<<<<<< HEAD
-#: model:ir.module.module,shortdesc:project_hr_stakeholder.module_meta_information
-msgid "Project Management"
-msgstr "Proyectos"
-<<<<<<< HEAD
->>>>>>> New revision
-=======
->>>>>>> Various corrections
-=======
-#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_sp
-msgid "Project Sponsor"
-msgstr "Patrocinador del Proyecto"
->>>>>>> Top menu name is not getting translated, adding string
 
 #. module: project_hr_stakeholder
 #: model:ir.model,name:project_hr_stakeholder.model_project_hr_stakeholder
@@ -689,10 +281,6 @@ msgid "Project Stakeholder"
 msgstr "Involucrado en el Proyecto"
 
 #. module: project_hr_stakeholder
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 #: help:project.hr.stakeholder,responsibilities_name_str:0
 msgid "Project Stakeholder responsibilities"
 msgstr "Responsabilidades del Involucrado en el Proyecto"
@@ -722,102 +310,22 @@ msgstr "Responsabilidades"
 #: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_responsible
 msgid "Responsible"
 msgstr "Responsable"
-=======
-=======
->>>>>>> Various corrections
-#: field:project.hr.responsibility,code:0
-#: field:project.hr.role,code:0
-=======
-#: field:project.hr.responsibility,code:0 field:project.hr.role,code:0
->>>>>>> Translations cleaning and 1 view+template correction
-msgid "Code"
-msgstr "Código"
-
-#. module: project_hr_stakeholder
-#: view:project.hr.stakeholder:0 view:project.project:0
-msgid "Roles and responsibilities"
-msgstr "Roles y responsabilidades"
-=======
-#: help:project.hr.stakeholder,responsibilities_name_str:0
-msgid "Project Stakeholder responsibilities"
-msgstr "Responsabilidades del Involucrado en el Proyecto"
->>>>>>> Top menu name is not getting translated, adding string
-
-#. module: project_hr_stakeholder
-#: help:project.hr.stakeholder,roles_name_str:0
-msgid "Project Stakeholder roles"
-msgstr "Roles de los Involucrados del Proyecto"
-
-#. module: project_hr_stakeholder
-#: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_stakeholder_tree
-#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_stakeholder_view
-#: view:project.hr.stakeholder:project_hr_stakeholder.view_project_hr_stakeholder_search
-#: view:project.project:project_hr_stakeholder.edit_project
-msgid "Project Stakeholders"
-msgstr "Involucrados del Proyecto"
-
-#. module: project_hr_stakeholder
-#: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_responsibility_tree
-#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_responsibility_view
-#: field:project.hr.stakeholder,responsibilities_name_str:0
-#: field:project.hr.stakeholder,responsibility_ids:0
-msgid "Responsibilities"
-msgstr "Responsabilidades"
-
-#. module: project_hr_stakeholder
-<<<<<<< HEAD
-#: field:project.hr.stakeholder,partner_id:0
-msgid "Partner"
-msgstr "Empresa"
-<<<<<<< HEAD
->>>>>>> New revision
-=======
->>>>>>> Various corrections
-=======
-#: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_responsible
-msgid "Responsible"
-msgstr "Responsable"
->>>>>>> Top menu name is not getting translated, adding string
 
 #. module: project_hr_stakeholder
 #: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_role_tree
-<<<<<<< HEAD
-<<<<<<< HEAD
 #: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_role_view
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-#: model:ir.ui.menu,name:project_hr_stakeholder.menu_roles_config
->>>>>>> New revision
-=======
-#: model:ir.ui.menu,name:project_hr_stakeholder.menu_roles_config
->>>>>>> Various corrections
-=======
->>>>>>> Translations
-=======
-#: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_role_view
->>>>>>> Translations and translation templates update
 #: field:project.hr.stakeholder,role_ids:0
 #: field:project.hr.stakeholder,roles_name_str:0
 msgid "Roles"
 msgstr "Roles"
 
 #. module: project_hr_stakeholder
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Top menu name is not getting translated, adding string
 #: view:project.hr.stakeholder:project_hr_stakeholder.project_hr_stakeholder_edit
 #: view:project.project:project_hr_stakeholder.edit_project
 msgid "Roles and responsibilities"
 msgstr "Roles y responsabilidades"
 
 #. module: project_hr_stakeholder
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Translations
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_se
 msgid "Seller"
 msgstr ""
@@ -862,11 +370,6 @@ msgid ""
 msgstr ""
 
 #. module: project_hr_stakeholder
-<<<<<<< HEAD
-=======
->>>>>>> Top menu name is not getting translated, adding string
-=======
->>>>>>> Translations
 #: model:ir.ui.menu,name:project_hr_stakeholder.project_hr_stakeholder_menu
 #: model:ir.ui.menu,name:project_hr_stakeholder.project_hr_stakeholder_menu_project_config_address_book
 #: view:project.hr.stakeholder:project_hr_stakeholder.project_hr_stakeholder_edit
@@ -878,8 +381,6 @@ msgid "Stakeholders"
 msgstr "Involucrados"
 
 #. module: project_hr_stakeholder
-<<<<<<< HEAD
-<<<<<<< HEAD
 #: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_accountable
 #, fuzzy
 msgid ""
@@ -985,154 +486,3 @@ msgstr ""
 #~ "stakeholders in this project.\n"
 #~ "        - You can maintain a master data for roles and responsibilities.\n"
 #~ "    "
-=======
-=======
->>>>>>> Various corrections
-#: model:ir.module.module,description:project_hr_stakeholder.module_meta_information
-=======
-#: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_tm
-msgid "Team Member"
-msgstr "Miembro de Equipo"
-
-#. module: project_hr_stakeholder
-#: help:project.hr.stakeholder,responsibility_ids:0
-#: help:project.hr.stakeholder,role_ids:0
-msgid ""
-"The assignment of the roles and responsibilities determines what actions the "
-"project manager,project team member,or individual contributor will have in "
-"the project. Roles and responsibilities generally support the project scope "
-"since this is the required work for the project."
-msgstr ""
-"La asignación de los roles  y responsabilidades determina las acciones que "
-"el director del proyecto, miembro del equipo del proyecto, o colaborador "
-"individual y realizarán en el proyecto. Los roles y responsabilidades en "
-"general apoyan el alcance del proyecto ya que este es el trabajo requerido "
-"para el proyecto."
-
-#. module: project_hr_stakeholder
-#: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_accountable
->>>>>>> Top menu name is not getting translated, adding string
-=======
-#: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_accountable
-#, fuzzy
->>>>>>> Translations
-msgid ""
-"The one ultimately answerable for the correct and thorough completion of "
-"the \n"
-"deliverable or task, and the one from whom Responsible is delegated the "
-"work.\n"
-"In other words, an Accountable must sign off (Approve) on work that "
-"Responsible provides. \n"
-"There must be only one Accountable specified for each task or deliverable.\n"
-"            \t"
-msgstr ""
-<<<<<<< HEAD
-" This module offers the possibility to register at project level the stakeholders involved in a project.\n"
-"        - It adds a 'Stakeholders' tab in the project form.\n"
-"        - The stakeholder can be registered as a partner, or a contact person. \n"
-"        - You can specify the roles and responsibilities of the stakeholders in this project.\n"
-"        - You can maintain a master data for roles and responsibilities.\n"
-"    "
-<<<<<<< HEAD
-
-<<<<<<< HEAD
->>>>>>> New revision
-=======
->>>>>>> Various corrections
-=======
->>>>>>> Translations cleaning and 1 view+template correction
-=======
-"Este rol se encarga de aprobar el trabajo finalizado y a partir de ese "
-"momento, se vuelve responsable por él. Sólo puede existir un A por cada "
-"tarea. Es quien debe asegurar que se ejecutan las tareas."
-
-#. module: project_hr_stakeholder
-#: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_informed
-#, fuzzy
-msgid ""
-"Those who are kept up-to-date on progress, \n"
-"often only on completion of the task or deliverable; \n"
-"and with whom there is just one-way communication\n"
-"            "
-msgstr ""
-"Este rol debe ser informado sobre el progreso y los resultados del trabajo. "
-"A diferencia del Consultado, la comunicación es unidireccional.            "
-
-#. module: project_hr_stakeholder
-#: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_responsible
-#, fuzzy
-msgid ""
-"Those who do the work to achieve the task. \n"
-"There is typically one role with a participation type of Responsible, \n"
-"although others can be delegated to assist in the work required.\n"
-"            \t"
-msgstr ""
-"Este rol realiza el trabajo y es responsable por su realización. Lo más "
-"habitual es que exista sólo un R, si existe más de uno, entonces el trabajo "
-"debería ser subdividido a un nivel más bajo, usando para ello las matrices "
-"RASCI. Es quien debe ejecutar las tareas.            \t"
-
-#. module: project_hr_stakeholder
-#: model:project.hr.responsibility,description:project_hr_stakeholder.project_hr_responsibility_consulted
-#, fuzzy
-msgid ""
-"Those whose opinions are sought, \n"
-"typically subject matter experts; and with whom there is two-way "
-"communication.\n"
-"            \t"
-msgstr ""
-"Este rol posee alguna información o capacidad necesaria para terminar el "
-"trabajo. Se le informa y se le consulta información (comunicación "
-"bidireccional)."
-
-#, fuzzy
-#~ msgid "Other Info"
-#~ msgstr "Otra Información"
-
-#~ msgid "Team Member"
-#~ msgstr "Miembro de Equipo"
-
-#~ msgid "responsibilities"
-#~ msgstr "responsabilidades"
-
-#~ msgid "Error! project start-date must be lower then project end-date."
-#~ msgstr ""
-#~ "¡Error! La fecha de inicio del proyecto debe ser anterior a la fecha "
-#~ "final del proyecto."
-
-#~ msgid "Annabel Mercedes Piqué"
-#~ msgstr "Annabel Mercedes Piqué"
-
-#~ msgid "Error! You cannot assign escalation to the same project!"
-#~ msgstr "¡Error! No puede asignar un escalado al mismo proyecto."
-
-#~ msgid "Dept. Editorial: Montse Jané"
-#~ msgstr "Dept. Editorial: Montse Jané"
-
-#~ msgid "Administration"
-#~ msgstr "Administración"
-
-#~ msgid "Project Management"
-#~ msgstr "Proyectos"
-
-#~ msgid ""
-#~ " This module offers the possibility to register at project level the "
-#~ "stakeholders involved in a project.\n"
-#~ "        - It adds a 'Stakeholders' tab in the project form.\n"
-#~ "        - The stakeholder can be registered as a partner, or a contact "
-#~ "person. \n"
-#~ "        - You can specify the roles and responsibilities of the "
-#~ "stakeholders in this project.\n"
-#~ "        - You can maintain a master data for roles and responsibilities.\n"
-#~ "    "
-#~ msgstr ""
-#~ " This module offers the possibility to register at project level the "
-#~ "stakeholders involved in a project.\n"
-#~ "        - It adds a 'Stakeholders' tab in the project form.\n"
-#~ "        - The stakeholder can be registered as a partner, or a contact "
-#~ "person. \n"
-#~ "        - You can specify the roles and responsibilities of the "
-#~ "stakeholders in this project.\n"
-#~ "        - You can maintain a master data for roles and responsibilities.\n"
-#~ "    "
->>>>>>> Top menu name is not getting translated, adding string
