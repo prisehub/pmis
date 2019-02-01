@@ -13,7 +13,7 @@
 		    <group string="Project Stakeholders">
 			<button help="Project Stakeholders"
 				class="oe_inline oe_stat_button"
-				name="%(action_project_hr_stakeholder_tree)d"
+				name="%(project_hr_stakeholder.action_project_hr_stakeholder_tree)d"
 				type="action"
 				icon="fa-users"
 				context="{'default_project_id': active_id,'search_default_project_id': active_id}"
@@ -21,18 +21,16 @@
 			    <div>Stakeholders</div>
 			</button>
 			<newline/>
-			<field name="stakeholder_ids" nolabel="1" context="{'default_project_id': active_id}">
-
-			    <tree editable="top" string="Stakeholders">
-				<field name="partner_id"/>
+			<field name="stakeholder_ids" nolabel="1">
+			    <tree editable="top">
+				<field name="partnerd_id"/>
 				<field name="role_ids" widget="many2many_tags"/>
 				<field name="responsibility_ids" widget="many2many_tags"/>
 				<field name="influence"/>
 			    </tree>
 			    <form string="Stakeholders">
 				<group colspan="4" col="4">
-				    <field name="project_id" readonly="1"/>
-				    <field name="partner_id"/>
+				    <field name="partnerd_id"/>
 				</group>
 				<newline/>
 				<group colspan="6" col="6">
@@ -41,7 +39,7 @@
 				    <field name="responsibility_ids" mode="tree,form" colspan="6"/>
 				</group>
 				<group colspan="6" col="6">
-				    <field name="influence"/>
+				    <field name="influence" nolabel="1" placeholder="Influence..."/>
 				</group>
 			    </form>
 			</field>
