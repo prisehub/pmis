@@ -18,15 +18,16 @@ document Project Charter, with all it's contents:
 * resource and billing plan
 * risk assesment integrated with risk management
 
-The project form is redesigned in a two-level notebook (to simulate sub menus) to keep
-the main project view less cluttered. It also aims to keep the insertion order oriented
-towards the productivity following the most usual Project Management Initiation and
-Planning workflow as per PMBOK and ISO 21500.
+The project form is redesigned in a two-level notebook (to simulate sub menus)
+to keep the main project view less cluttered. It also aims to keep the
+insertion order oriented towards the productivity following the most usual
+Project Management Initiation and Planning workflow as per PMBOK and ISO 21500.
 
 Installation
 ============
 
-* The module automatically takes care of its dependencies and is ready for use after the installation
+* The module automatically takes care of its dependencies and is ready for
+  use after the installation
 
 Credits
 =======
@@ -39,12 +40,21 @@ Contributors
 Maintainer
 ----------
 
-.. image:: http://www.matmoz.si/wp-content/uploads/2014/11/128x128.png
-   :alt: MATMOZ d.o.o.
-   :target: http://www.matmoz.si
+.. image:: https://www.luxim.si/wp-content/uploads/2017/12/pexpert_alt.png
+   :alt: Project Expert
+   :target: http://project.expert
 
-This module is maintained by MATMOZ d.o.o.
+This module is maintained by Project Expert Team.
 
-MATMOZ d.o.o. is a project management services company, which is also active in various open source communities.
-One of those is OCA, or the Odoo Community Association, which is a nonprofit organization whose mission is to support the collaborative development of Odoo features and promote its widespread use.
+Project Expert is a joint effort between EFICENT (Barcelona, Spain) and MATMOZ
+(Ljubljana, Slovenia), both active members of Odoo Community Association (OCA).
+Since 2017 the development team was joined by LUXIM (Nova Gorica, Slovenia)
+after MATMOZ and LUXIM began the company merging process.
 
+.. image:: http://odoo-community.org/logo.png
+   :alt: Odoo Community Association
+   :target: http://odoo-community.org
+
+OCA, or the Odoo Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of Odoo features and
+promote its widespread use.

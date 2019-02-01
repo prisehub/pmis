@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-13 07:29+0000\n"
-"PO-Revision-Date: 2015-11-13 07:29+0000\n"
+"POT-Creation-Date: 2017-02-23 07:36+0000\n"
+"PO-Revision-Date: 2017-02-23 07:36+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -84,18 +84,28 @@ msgid "\n"
 msgstr ""
 
 #. module: project_charter
+#: field:project.project,active_analytic_planning_version:0
+msgid "Active planning Version"
+msgstr ""
+
+#. module: project_charter
+#: field:project.project,plan_line_ids:0
+msgid "Analytic Entries"
+msgstr ""
+
+#. module: project_charter
 #: view:project.project:project_charter.view_project_form
 msgid "Assumptions, Constraints"
 msgstr ""
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
-msgid "Billing plan"
+msgid "Budget lines"
 msgstr ""
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
-msgid "Billing plan lines"
+msgid "Budget plan"
 msgstr ""
 
 #. module: project_charter
@@ -105,17 +115,7 @@ msgstr ""
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
-msgid "Child WBS elements"
-msgstr ""
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Class"
-msgstr ""
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Code"
+msgid "Communications"
 msgstr ""
 
 #. module: project_charter
@@ -145,13 +145,10 @@ msgid "Criteria"
 msgstr ""
 
 #. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Deliverables"
-msgstr ""
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "End Date"
+#: field:project.constraints,display_name:0
+#: field:project.outscope,display_name:0
+#: field:project.success,display_name:0
+msgid "Display Name"
 msgstr ""
 
 #. module: project_charter
@@ -159,6 +156,13 @@ msgstr ""
 #: field:project.outscope,id:0
 #: field:project.success,id:0
 msgid "ID"
+msgstr ""
+
+#. module: project_charter
+#: field:project.constraints,__last_update:0
+#: field:project.outscope,__last_update:0
+#: field:project.success,__last_update:0
+msgid "Last Modified on"
 msgstr ""
 
 #. module: project_charter
@@ -177,12 +181,7 @@ msgstr ""
 
 #. module: project_charter
 #: model:ir.ui.menu,name:project_charter.project_management
-msgid "Management"
-msgstr ""
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Name"
+msgid "Manage"
 msgstr ""
 
 #. module: project_charter
@@ -202,17 +201,23 @@ msgstr ""
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
-msgid "Parent"
+#: field:project.project,balance_plan:0
+msgid "Planned Balance"
+msgstr ""
+
+#. module: project_charter
+#: field:project.project,credit_plan:0
+msgid "Planned Credit"
+msgstr ""
+
+#. module: project_charter
+#: field:project.project,debit_plan:0
+msgid "Planned Debit"
 msgstr ""
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
-msgid "Parent WBS element"
-msgstr ""
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Phases"
+msgid "Planned balance"
 msgstr ""
 
 #. module: project_charter
@@ -227,17 +232,17 @@ msgstr ""
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
-msgid "Project Form View"
-msgstr ""
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
 msgid "Project Purpose"
 msgstr ""
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
 msgid "Project Scope"
+msgstr ""
+
+#. module: project_charter
+#: view:project.project:project_charter.view_project_form
+msgid "Project Team Members"
 msgstr ""
 
 #. module: project_charter
@@ -258,7 +263,6 @@ msgstr ""
 #. module: project_charter
 #: field:project.constraints,project_id:0
 #: field:project.outscope,project_id:0
-#: view:project.project:project_charter.view_project_form
 #: field:project.success,project_id:0
 msgid "Projects"
 msgstr ""
@@ -266,16 +270,6 @@ msgstr ""
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
 msgid "Requirements and Success"
-msgstr ""
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Resource and Billing Plan"
-msgstr ""
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Resource and Billing plan"
 msgstr ""
 
 #. module: project_charter
@@ -299,11 +293,6 @@ msgid "Stakeholders"
 msgstr ""
 
 #. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Start Date"
-msgstr ""
-
-#. module: project_charter
 #: model:ir.model,name:project_charter.model_project_success
 msgid "Success"
 msgstr ""
@@ -319,17 +308,7 @@ msgid "Tasks"
 msgstr ""
 
 #. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "WBS elements"
-msgstr ""
-
-#. module: project_charter
 #: view:project.project:project_charter.edit_project
 msgid "Work Breakdown Structure"
-msgstr ""
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Work Packages"
 msgstr ""
 

@@ -1,94 +1,29 @@
-# -*- coding: utf-8 -*-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Addons modules by MATMOZ d.o.o.
-#    Copyright (C) 2015-TODAY MATMOZ d.o.o. (<http://www.matmoz.si>).
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# © 2015 MATMOZ d.o.o. - Matjaž Mozetič
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
 
-from openerp import models, fields
+from odoo import models, fields
 
 
 class Project(models.Model):
 
-    _inherit = 'project.project'
+    _inherit = "project.project"
 
-    notes = fields.Text('Notes')
-    # project_scope_ids = fields.One2many(
-    #     'project.scope',
-    #     'project_id',
-    # )
-    project_outscope_ids = fields.One2many(
-        'project.outscope',
-        'project_id',
-    )
-    project_success_ids = fields.One2many(
-        'project.success',
-        'project_id'
-    )
-    # project_requirement_ids = fields.One2many(
-    #     'project.requirement',
-    #     'project_id'
-    # )
-    project_constraints_ids = fields.One2many(
-        'project.constraints',
-        'project_id',
-    )
-
-
-# class Project_scope(models.Model):
-#     """Project Scope"""
-#
-#     _name = 'project.scope'
-#     _description = __doc__
-#
-#     project_id = fields.Many2one('project.project', string='Projects')
-#     scope = fields.Text(
-#         'Scope',
-#         help='''
-# The scope is what the project contains or delivers (i.e. the
-# products or services). When starting to plan the scope of the
-# project think about the BIG PICTURE first! At this level it
-# is best to concentrate on the major deliverables and not to
-# get bogged down with detail.
-# Examples of areas that could be examined and clarified
-# include:
-#
-# * The type of deliverables that are in scope and out of scope
-# * The major life-cycle processes that are in scope and out of
-#    scope
-# * The types of data that are in scope and out of scope
-# * The data sources that are in scope or out of scope
-# * The organisations that are in scope and out of scope
-# * The major functionality that is in scope and out of scope
-#         '''
-#     )
+    notes = fields.Text("Notes")
+    project_outscope_ids = fields.One2many("project.outscope", "project_id")
+    project_success_ids = fields.One2many("project.success", "project_id")
+    project_constraints_ids = fields.One2many("project.constraints", "project_id")
 
 
 class ProjectOutscope(models.Model):
     """Out of scope"""
 
-    _name = 'project.outscope'
+    _name = "project.outscope"
     _description = __doc__
 
-    project_id = fields.Many2one('project.project', string='Projects')
+    project_id = fields.Many2one("project.project", string="Projects")
     out_scope = fields.Text(
-        'Out of Scope',
-        help='''
+        "Out of Scope",
+        help="""
 It is just as important to agree on what is OUT OF SCOPE as it
 is to define what is IN SCOPE as stakeholders will often have
 different ideas regarding what is supposed to be IN the
@@ -107,20 +42,20 @@ include:
 * The data sources that are in scope or out of scope
 * The organisations that are in scope and out of scope
 * The major functionality that is in scope and out of scope
-        '''
+        """,
     )
 
 
 class Success(models.Model):
     """Success"""
 
-    _name = 'project.success'
+    _name = "project.success"
     _description = __doc__
 
-    project_id = fields.Many2one('project.project', string='Projects')
+    project_id = fields.Many2one("project.project", string="Projects")
     success = fields.Text(
-        'Criteria',
-        help='''
+        "Criteria",
+        help="""
 PROJECT OBJECTIVES
 The success of your project will be defined by how well you
 meet your objectives. The more explicitly you state your
@@ -148,75 +83,24 @@ and should:
 Examples:
 * Maximum Deadline on ...
 * Maximum Budget = ...
-        '''
+        """,
     )
-
-
-# class Requirement(models.Model):
-#     """Requirements"""
-#
-#     _name = 'project.requirement'
-#     _description = __doc__
-#
-#     project_id = fields.Many2one('project.project', string='Projects')
-#     partner_id = fields.Many2one(
-#         'project.hr.stakeholder', string='Stakeholder'
-#     )
-#     issue_id = fields.Many2one('project.issue', string='Negotiation')
-#     status = fields.Selection(
-#         [('draft', 'Draft'), ('approved', 'Approved'), ('denied', 'Denied')],
-#         'Status',
-#     )
-
-# REQUIREMENTS COMMENTED OUT - REQ. MANAGEMENT TRANSFERED TO CHANGE MANAGEMENT
-
-#     requirements = fields.Text(
-#         'Stakeholder Requirements',
-#         help='''
-# The user requirements of the project must be defined and
-# documented. Approval and confirmation must be obtained
-# before the project can proceed. To obtain agreement about
-# needs:
-#
-# * Separate needs from wants
-# * Group the needs that are similar
-# * Prioritise needs (eg essential, nice to have)
-# * Identify any conflicting needs
-# * Negotiate agreement between stakeholders with
-#    conflicting needs
-#
-# This process often requires a number of meetings with
-# stakeholders. Stakeholders often express their needs in
-# terms of a particular product or solution to the problem,
-# which has created the need for the project in the first
-# place. It is important to re-state the agreed needs in
-# terms of “what the end product/service(s) of the project
-# should do”.
-# Stating the agreed needs in functional terms permits the
-# project manager to offer a range of solutions to the client
-# or key stakeholders. If the project outcomes are restricted
-# to solutions offered by key stakeholders too early in the
-# analysis process important alternative options might be
-# overlooked. Document the final set of agreed requirements
-# and obtain sign-off from all key stakeholders.
-#         '''
-#     )
 
 
 class ProjectConstraint(models.Model):
     """Constraints"""
 
-    _name = 'project.constraints'
+    _name = "project.constraints"
     _description = __doc__
 
-    project_id = fields.Many2one('project.project', string='Projects')
+    project_id = fields.Many2one("project.project", string="Projects")
     constraints = fields.Text(
-        string='Constraints',
-        help='''
+        string="Constraints",
+        help="""
 Project constraints are known facts that will influence how
 the project is planned and managed. A constraint is a given
 factor that is outside of the project planner’s scope of
 control, which unless it is lifted or otherwise removed, will
 force project actions to work around it.
-        '''
+        """,
     )

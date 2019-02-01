@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-13 09:06+0100\n"
-"PO-Revision-Date: 2015-11-13 09:06+0100\n"
+"POT-Creation-Date: 2017-02-23 08:37+0100\n"
+"PO-Revision-Date: 2017-02-23 08:37+0100\n"
 "Last-Translator: Matjaz Mozetic <m.mozetic@matmoz.si>\n"
 "Language-Team: \n"
 "Language: sl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. module: project_charter
 #: help:project.outscope,out_scope:0
@@ -144,19 +144,29 @@ msgstr ""
 "        "
 
 #. module: project_charter
+#: field:project.project,active_analytic_planning_version:0
+msgid "Active planning Version"
+msgstr "Aktivna verzija plana"
+
+#. module: project_charter
+#: field:project.project,plan_line_ids:0
+msgid "Analytic Entries"
+msgstr "Analitične vknjižbe"
+
+#. module: project_charter
 #: view:project.project:project_charter.view_project_form
 msgid "Assumptions, Constraints"
 msgstr "Predpostavke, omejitve"
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
-msgid "Billing plan"
-msgstr "Obračun. plan"
+msgid "Budget lines"
+msgstr "Postavke proračuna"
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
-msgid "Billing plan lines"
-msgstr "Obračun. plan"
+msgid "Budget plan"
+msgstr "Proračunski plan"
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
@@ -165,18 +175,8 @@ msgstr "Statut/Plan"
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
-msgid "Child WBS elements"
-msgstr "Podrejeni členi"
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Class"
-msgstr "Razred"
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Code"
-msgstr "Koda"
+msgid "Communications"
+msgstr "Komunikacije"
 
 #. module: project_charter
 #: model:ir.model,name:project_charter.model_project_constraints
@@ -203,20 +203,22 @@ msgid "Criteria"
 msgstr "Kriterij"
 
 #. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Deliverables"
-msgstr "Dobave"
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "End Date"
-msgstr "Končni datum"
+#: field:project.constraints,display_name:0
+#: field:project.outscope,display_name:0 field:project.success,display_name:0
+msgid "Display Name"
+msgstr "Prikazni naziv"
 
 #. module: project_charter
 #: field:project.constraints,id:0 field:project.outscope,id:0
 #: field:project.success,id:0
 msgid "ID"
 msgstr "ID"
+
+#. module: project_charter
+#: field:project.constraints,__last_update:0
+#: field:project.outscope,__last_update:0 field:project.success,__last_update:0
+msgid "Last Modified on"
+msgstr "Zadnjič spremenjeno"
 
 #. module: project_charter
 #: field:project.constraints,write_uid:0 field:project.outscope,write_uid:0
@@ -232,13 +234,8 @@ msgstr "Zadnjič posodobljeno"
 
 #. module: project_charter
 #: model:ir.ui.menu,name:project_charter.project_management
-msgid "Management"
-msgstr "Upravljanje"
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Name"
-msgstr "Naziv"
+msgid "Manage"
+msgstr "Upravljaj"
 
 #. module: project_charter
 #: field:project.project,notes:0
@@ -257,18 +254,24 @@ msgstr "Izven obsega"
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
-msgid "Parent"
-msgstr "Nadrejeni"
+#: field:project.project,balance_plan:0
+msgid "Planned Balance"
+msgstr "Planirana bilanca"
+
+#. module: project_charter
+#: field:project.project,credit_plan:0
+msgid "Planned Credit"
+msgstr "Planirane terjatve"
+
+#. module: project_charter
+#: field:project.project,debit_plan:0
+msgid "Planned Debit"
+msgstr "Planirane obveznosti"
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
-msgid "Parent WBS element"
-msgstr "Nadrejeni člen"
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Phases"
-msgstr "Faze"
+msgid "Planned balance"
+msgstr "Planirana bilanca"
 
 #. module: project_charter
 #: model:ir.model,name:project_charter.model_project_project
@@ -282,11 +285,6 @@ msgstr "Ni zajeto v projektu"
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
-msgid "Project Form View"
-msgstr "Obrazec projekta"
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
 msgid "Project Purpose"
 msgstr "Namen projekta"
 
@@ -294,6 +292,11 @@ msgstr "Namen projekta"
 #: view:project.project:project_charter.view_project_form
 msgid "Project Scope"
 msgstr "Obseg projekta"
+
+#. module: project_charter
+#: view:project.project:project_charter.view_project_form
+msgid "Project Team Members"
+msgstr "Člani projektne ekipe"
 
 #. module: project_charter
 #: field:project.project,project_constraints_ids:0
@@ -312,7 +315,6 @@ msgstr "Idji uspeha"
 
 #. module: project_charter
 #: field:project.constraints,project_id:0 field:project.outscope,project_id:0
-#: view:project.project:project_charter.view_project_form
 #: field:project.success,project_id:0
 msgid "Projects"
 msgstr "Projekti"
@@ -321,16 +323,6 @@ msgstr "Projekti"
 #: view:project.project:project_charter.view_project_form
 msgid "Requirements and Success"
 msgstr "Zahteve in uspeh"
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Resource and Billing Plan"
-msgstr "Plan virov in obračunski plan"
-
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Resource and Billing plan"
-msgstr "Plan virov in obračunski plan"
 
 #. module: project_charter
 #: view:project.project:project_charter.view_project_form
@@ -353,11 +345,6 @@ msgid "Stakeholders"
 msgstr "Deležniki"
 
 #. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Start Date"
-msgstr "Začetni datum"
-
-#. module: project_charter
 #: model:ir.model,name:project_charter.model_project_success
 msgid "Success"
 msgstr "Uspeh"
@@ -373,19 +360,72 @@ msgid "Tasks"
 msgstr "Opravila"
 
 #. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "WBS elements"
-msgstr "Členi"
-
-#. module: project_charter
 #: view:project.project:project_charter.edit_project
 msgid "Work Breakdown Structure"
 msgstr "Členjenje projekta"
 
-#. module: project_charter
-#: view:project.project:project_charter.view_project_form
-msgid "Work Packages"
-msgstr "Delovni seznami"
+#~ msgid "Billing plan lines"
+#~ msgstr "Obračun. plan"
+
+#~ msgid "Resource and Billing Plan"
+#~ msgstr "Plan virov in obračunski plan"
+
+#~ msgid "Resource and Billing plan"
+#~ msgstr "Plan virov in obračunski plan"
+
+#~ msgid "Child code sequence"
+#~ msgstr "Zaporedje kode podrejenih"
+
+#~ msgid "Quantity Debit"
+#~ msgstr "Dolgovana količina"
+
+#~ msgid "Class"
+#~ msgstr "Razred"
+
+#~ msgid "Code"
+#~ msgstr "Koda"
+
+#~ msgid "Edit Scope"
+#~ msgstr "Uredi obseg"
+
+#~ msgid "End Date"
+#~ msgstr "Končni datum"
+
+#~ msgid "Name"
+#~ msgstr "Naziv"
+
+#~ msgid "Parent"
+#~ msgstr "Nadrejeni"
+
+#~ msgid "Start Date"
+#~ msgstr "Začetni datum"
+
+#~ msgid "WBS elements"
+#~ msgstr "Členi"
+
+#~ msgid "Defines what type of cost does the analytic account carry from an employee perspective."
+#~ msgstr "Določi tip stroškov na analitičnem kontu iz vidika delojemalca."
+
+#~ msgid "Type of Cost"
+#~ msgstr "Tip stroška"
+
+#~ msgid "Child WBS elements"
+#~ msgstr "Podrejeni členi"
+
+#~ msgid "Deliverables"
+#~ msgstr "Dobave"
+
+#~ msgid "Parent WBS element"
+#~ msgstr "Nadrejeni člen"
+
+#~ msgid "Phases"
+#~ msgstr "Faze"
+
+#~ msgid "Project Form View"
+#~ msgstr "Obrazec projekta"
+
+#~ msgid "Work Packages"
+#~ msgstr "Delovni seznami"
 
 #~ msgid "Document Page"
 #~ msgstr "Stran dokumenta"
@@ -487,12 +527,6 @@ msgstr "Delovni seznami"
 
 #~ msgid "Boundaries"
 #~ msgstr "Meje"
-
-#~ msgid "Broad Scope"
-#~ msgstr "Grobi obseg"
-
-#~ msgid "Project Charter"
-#~ msgstr "Projektni statut"
 
 #~ msgid "Project Description"
 #~ msgstr "Opis projekta"
