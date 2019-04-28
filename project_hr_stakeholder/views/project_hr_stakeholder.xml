@@ -84,9 +84,9 @@
 
         <menuitem id="project_hr_stakeholder_menu"
 		  name="Stakeholders"
-		  parent="analytic_plan.project_analytic"
+		  parent="project.menu_project_config"
 		  sequence="2"
-		  groups="project.group_project_manager,project.group_project_user" />
+		  groups="project.group_project_manager" />
 
         <menuitem action="action_project_hr_stakeholder_tree"
         	  id="menu_project_hr_stakeholder_view"

@@ -10,7 +10,7 @@
     "website": "http://project.expert",
     "category": "Project Management",
     "license": "AGPL-3",
-    "depends": ["analytic_plan", "project_charter"],
+    "depends": ["project"],
     "data": [
         "security/ir.model.access.csv",
         "security/project_security.xml",

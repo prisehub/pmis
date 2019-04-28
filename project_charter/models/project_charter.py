@@ -9,6 +9,7 @@ class Project(models.Model):
     _inherit = "project.project"
 
     notes = fields.Text("Notes")
+    details = fields.Text("Notes Detailed")
     project_outscope_ids = fields.One2many("project.outscope", "project_id")
     project_success_ids = fields.One2many("project.success", "project_id")
     project_constraints_ids = fields.One2many("project.constraints", "project_id")

@@ -13,7 +13,7 @@
     "summary": "Project Charter",
     "complexity": "easy",
     "images": [],
-    "depends": ["project_wbs"],
+    "depends": ["project"],
     "data": ["views/project_charter_view.xml", "security/ir.model.access.csv"],
     "installable": True,
 }
