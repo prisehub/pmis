@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo Server 12.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-02 05:46+0000\n"
-"PO-Revision-Date: 2016-06-02 05:46+0000\n"
+"POT-Creation-Date: 2019-04-28 23:57+0000\n"
+"PO-Revision-Date: 2019-04-28 23:57+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,19 +16,9 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: project_hr_stakeholder
-#: help:project.hr.stakeholder,responsibility_ids:0
-#: help:project.hr.stakeholder,role_ids:0
-msgid "\n"
-"            The assignment of the roles and responsibilities determines what actions the project manager,\n"
-"            project team member,or individual contributor will have in the project. Roles and responsibilities\n"
-"             generally support the project scope since this is the required work for the project.\n"
-"            "
-msgstr ""
-
-#. module: project_hr_stakeholder
 #: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_accountable
 msgid "Accountable"
-msgstr ""
+msgstr "Aprobador"
 
 #. module: project_hr_stakeholder
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_bp
@@ -45,34 +35,34 @@ msgid "Business partners.\n"
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: field:project.hr.responsibility,code:0
-#: field:project.hr.role,code:0
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_responsibility__code
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_role__code
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #. module: project_hr_stakeholder
 #: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_consulted
 msgid "Consulted"
-msgstr ""
+msgstr "Consultado"
 
 #. module: project_hr_stakeholder
-#: field:project.hr.responsibility,create_uid:0
-#: field:project.hr.role,create_uid:0
-#: field:project.hr.stakeholder,create_uid:0
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_responsibility__create_uid
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_role__create_uid
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_stakeholder__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creado por:"
 
 #. module: project_hr_stakeholder
-#: field:project.hr.responsibility,create_date:0
-#: field:project.hr.role,create_date:0
-#: field:project.hr.stakeholder,create_date:0
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_responsibility__create_date
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_role__create_date
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_stakeholder__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creado"
 
 #. module: project_hr_stakeholder
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_cu
 msgid "Customer or User"
-msgstr ""
+msgstr "Cliente o Usuario"
 
 #. module: project_hr_stakeholder
 #: model:project.hr.role,description:project_hr_stakeholder.project_hr_role_cu
@@ -88,31 +78,31 @@ msgid "Customers and users.\n"
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: model:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_responsibility_tree
-#: model:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_stakeholder_tree
+#: model_terms:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_responsibility_tree
+#: model_terms:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_stakeholder_tree
 msgid "Define the responsibilities for stakeholders in projects."
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: model:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_role_tree
+#: model_terms:ir.actions.act_window,help:project_hr_stakeholder.action_project_hr_role_tree
 msgid "Define the roles for stakeholders in projects."
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: view:project.hr.responsibility:project_hr_stakeholder.view_project_hr_responsibility_edit
-#: field:project.hr.responsibility,description:0
-#: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_edit
-#: field:project.hr.role,description:0
-#: field:project.hr.stakeholder,name:0
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_responsibility__description
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_role__description
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_stakeholder__name
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.view_project_hr_responsibility_edit
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.view_project_hr_role_edit
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #. module: project_hr_stakeholder
-#: field:project.hr.responsibility,display_name:0
-#: field:project.hr.role,display_name:0
-#: field:project.hr.stakeholder,display_name:0
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_responsibility__display_name
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_role__display_name
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_stakeholder__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nombre a Mostrar"
 
 #. module: project_hr_stakeholder
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_fm
@@ -131,58 +121,63 @@ msgid "Functional managers.\n"
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: view:project.hr.stakeholder:project_hr_stakeholder.view_project_hr_stakeholder_search
-msgid "Group By"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.view_project_hr_stakeholder_search
+msgid "Group by"
+msgstr "Agrupar por"
 
 #. module: project_hr_stakeholder
-#: field:project.hr.responsibility,id:0
-#: field:project.hr.role,id:0
-#: field:project.hr.stakeholder,id:0
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_responsibility__id
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_role__id
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_stakeholder__id
 msgid "ID"
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: field:project.hr.stakeholder,influence:0
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_stakeholder__influence
 msgid "Influence"
+msgstr ""
+
+#. module: project_hr_stakeholder
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.edit_project
+msgid "Influence..."
 msgstr ""
 
 #. module: project_hr_stakeholder
 #: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_informed
 msgid "Informed"
-msgstr ""
+msgstr "Informado"
 
 #. module: project_hr_stakeholder
-#: field:project.hr.responsibility,__last_update:0
-#: field:project.hr.role,__last_update:0
-#: field:project.hr.stakeholder,__last_update:0
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_responsibility____last_update
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_role____last_update
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_stakeholder____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Fecha de modificación"
 
 #. module: project_hr_stakeholder
-#: field:project.hr.responsibility,write_uid:0
-#: field:project.hr.role,write_uid:0
-#: field:project.hr.stakeholder,write_uid:0
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_responsibility__write_uid
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_role__write_uid
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_stakeholder__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Ultima Actualización por"
 
 #. module: project_hr_stakeholder
-#: field:project.hr.responsibility,write_date:0
-#: field:project.hr.role,write_date:0
-#: field:project.hr.stakeholder,write_date:0
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_responsibility__write_date
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_role__write_date
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_stakeholder__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Actualizado en"
 
 #. module: project_hr_stakeholder
-#: field:project.hr.responsibility,name:0
-#: field:project.hr.role,name:0
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_responsibility__name
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_role__name
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #. module: project_hr_stakeholder
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_og
 msgid "Organizational Group"
-msgstr ""
+msgstr "Grupo Organizacional"
 
 #. module: project_hr_stakeholder
 #: model:project.hr.role,description:project_hr_stakeholder.project_hr_role_og
@@ -199,93 +194,85 @@ msgid "Organizational groups.\n"
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: view:project.hr.stakeholder:project_hr_stakeholder.view_project_hr_stakeholder_search
-#: field:project.hr.stakeholder,partner_id:0
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_stakeholder__partnerd_id
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.view_project_hr_stakeholder_search
 msgid "Partner"
-msgstr ""
+msgstr "Empresa"
 
 #. module: project_hr_stakeholder
 #: model:ir.model,name:project_hr_stakeholder.model_project_project
-#: view:project.hr.stakeholder:project_hr_stakeholder.view_project_hr_stakeholder_search
-#: field:project.hr.stakeholder,project_id:0
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_stakeholder__project_id
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.view_project_hr_stakeholder_search
 msgid "Project"
-msgstr ""
+msgstr "Proyecto"
 
 #. module: project_hr_stakeholder
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_pm
 msgid "Project Manager"
-msgstr ""
+msgstr "Responsable de Proyectos"
 
 #. module: project_hr_stakeholder
 #: model:ir.model,name:project_hr_stakeholder.model_project_hr_responsibility
-#: view:project.hr.responsibility:project_hr_stakeholder.view_project_hr_responsibility_edit
-#: view:project.hr.responsibility:project_hr_stakeholder.view_project_hr_responsibility_search
-#: view:project.hr.responsibility:project_hr_stakeholder.view_project_hr_responsibility_tree
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.view_project_hr_responsibility_edit
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.view_project_hr_responsibility_search
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.view_project_hr_responsibility_tree
 msgid "Project Responsibility"
-msgstr ""
+msgstr "Responsabilidad en el Proyecto"
 
 #. module: project_hr_stakeholder
 #: model:ir.model,name:project_hr_stakeholder.model_project_hr_role
-#: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_edit
-#: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_search
-#: view:project.hr.role:project_hr_stakeholder.view_project_hr_role_tree
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.view_project_hr_role_edit
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.view_project_hr_role_search
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.view_project_hr_role_tree
 msgid "Project Role"
-msgstr ""
+msgstr "Rol en el Proyecto"
 
 #. module: project_hr_stakeholder
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_sp
 msgid "Project Sponsor"
-msgstr ""
+msgstr "Patrocinador del Proyecto"
 
 #. module: project_hr_stakeholder
 #: model:ir.model,name:project_hr_stakeholder.model_project_hr_stakeholder
 msgid "Project Stakeholder"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: help:project.hr.stakeholder,responsibilities_name_str:0
-msgid "Project Stakeholder responsibilities"
-msgstr ""
-
-#. module: project_hr_stakeholder
-#: help:project.hr.stakeholder,roles_name_str:0
-msgid "Project Stakeholder roles"
-msgstr ""
+msgstr "Involucrado en el Proyecto"
 
 #. module: project_hr_stakeholder
 #: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_stakeholder_tree
 #: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_stakeholder_view
-#: view:project.hr.stakeholder:project_hr_stakeholder.view_project_hr_stakeholder_search
-#: view:project.project:project_hr_stakeholder.edit_project
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.edit_project
 msgid "Project Stakeholders"
-msgstr ""
+msgstr "Involucrados del Proyecto"
 
 #. module: project_hr_stakeholder
 #: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_responsibility_tree
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_stakeholder__responsibility_ids
 #: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_responsibility_view
-#: field:project.hr.stakeholder,responsibilities_name_str:0
-#: field:project.hr.stakeholder,responsibility_ids:0
 msgid "Responsibilities"
-msgstr ""
+msgstr "Responsabilidades"
 
 #. module: project_hr_stakeholder
 #: model:project.hr.responsibility,name:project_hr_stakeholder.project_hr_responsibility_responsible
 msgid "Responsible"
-msgstr ""
+msgstr "Responsable"
 
 #. module: project_hr_stakeholder
 #: model:ir.actions.act_window,name:project_hr_stakeholder.action_project_hr_role_tree
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_hr_stakeholder__role_ids
 #: model:ir.ui.menu,name:project_hr_stakeholder.menu_project_hr_role_view
-#: field:project.hr.stakeholder,role_ids:0
-#: field:project.hr.stakeholder,roles_name_str:0
 msgid "Roles"
 msgstr ""
 
 #. module: project_hr_stakeholder
-#: view:project.hr.stakeholder:project_hr_stakeholder.project_hr_stakeholder_edit
-#: view:project.project:project_hr_stakeholder.edit_project
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.edit_project
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.project_hr_stakeholder_edit
 msgid "Roles and responsibilities"
-msgstr ""
+msgstr "Roles y responsabilidades"
+
+#. module: project_hr_stakeholder
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.view_project_hr_stakeholder_search
+msgid "Search Stakeholders"
+msgstr "Buscar Interesados"
 
 #. module: project_hr_stakeholder
 #: model:project.hr.role,name:project_hr_stakeholder.project_hr_role_se
@@ -318,14 +305,20 @@ msgid "Sponsor.\n"
 msgstr ""
 
 #. module: project_hr_stakeholder
+#: model:ir.model.fields,field_description:project_hr_stakeholder.field_project_project__stakeholder_ids
 #: model:ir.ui.menu,name:project_hr_stakeholder.project_hr_stakeholder_menu
 #: model:ir.ui.menu,name:project_hr_stakeholder.project_hr_stakeholder_menu_project_config_address_book
-#: view:project.hr.stakeholder:project_hr_stakeholder.project_hr_stakeholder_edit
-#: view:project.hr.stakeholder:project_hr_stakeholder.project_hr_stakeholder_tree
-#: view:project.hr.stakeholder:project_hr_stakeholder.project_hr_stakeholder_tree_2
-#: view:project.project:project_hr_stakeholder.edit_project
-#: field:project.project,stakeholder_ids:0
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.edit_project
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.project_hr_stakeholder_edit
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.project_hr_stakeholder_tree
+#: model_terms:ir.ui.view,arch_db:project_hr_stakeholder.project_hr_stakeholder_tree_2
 msgid "Stakeholders"
+msgstr "Involucrados"
+
+#. module: project_hr_stakeholder
+#: model:ir.model.fields,help:project_hr_stakeholder.field_project_hr_stakeholder__responsibility_ids
+#: model:ir.model.fields,help:project_hr_stakeholder.field_project_hr_stakeholder__role_ids
+msgid "The assignment of the roles and responsibilities determines what actions the project manager, project team member, or individual contributor will have in the project. Roles and responsibilities generally support the project scope since this is the required work for the project."
 msgstr ""
 
 #. module: project_hr_stakeholder

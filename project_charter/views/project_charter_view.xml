@@ -41,15 +41,27 @@
                                 </group>
                             </page>
                             <page string="Scope" name="scope">
-                                <group string="Constraints">
-                                    <group>
+                                <group>
+                                    <group string="Constraints">
                                         <field name="project_constraints_ids" nolabel="1">
                                             <tree editable="bottom">
-                                                <field name="constraints"/>
+                                                <field name="constraints" required="1"/>
                                             </tree>
                                             <form>
                                                 <group>
                                                     <field name="constraints" required="1"/>
+                                                </group>
+                                            </form>
+                                        </field>
+                                    </group>
+                                    <group string="OutScope">
+                                        <field name="project_outscope_ids" nolabel="1">
+                                            <tree editable="bottom">
+                                                <field name="out_scope" required="1"/>
+                                            </tree>
+                                            <form>
+                                                <group>
+                                                    <field name="out_scope" required="1"/>
                                                 </group>
                                             </form>
                                         </field>
