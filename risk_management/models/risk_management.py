@@ -43,9 +43,9 @@ class RiskManagementRisk(models.Model):
     _inherit = ["mail.thread"]
 
     _TRACK = {
-        "draft": "risk.mt_risk_draft",
-        "active": "risk.mt_risk_active",
-        "closed": "risk.mt_risk_closed",
+        "draft": "risk_management.mt_risk_draft",
+        "active": "risk_management.mt_risk_active",
+        "closed": "risk_management.mt_risk_closed",
     }
 
     def _track_subtype(self, init_values):

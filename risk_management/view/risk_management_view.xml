@@ -29,7 +29,7 @@
           <field name="model">risk.management.risk</field>
           <field name="priority">5</field>
           <field name="arch" type="xml">
-              <form string="Risk" version="7.0">
+              <form string="Risk">
                   <header>
                       <button name="set_state_draft" type="object" states="active,closed" string="Set Draft"/>
                       <button name="set_state_closed" type="object" states="active" string="Close Risk" class="oe_highlight"/>
@@ -151,7 +151,7 @@
           <field name="name">risk.management.risk.kanban.view</field>
           <field name="model">risk.management.risk</field>
           <field name="arch"  type="xml">
-              <kanban class="oe_background_grey" default_group_by="risk_owner_id">
+              <kanban class="oe_background_grey" default_group_by="risk_category_id">
                   <field name="name"/>
                   <field name="description"/>
                   <!--<field name="state"/>-->
@@ -167,12 +167,10 @@
                   <templates>
                       <t t-name="kanban-box">
                           <div t-attf-class="oe_kanban_color_#{kanban_getcolor(record.color.raw_value)} oe_kanban_card oe_kanban_global_click">
-                              <div class="oe_dropdown_toggle oe_dropdown_kanban">
-                                  <span class="oe_e">í</span>
-                                  <ul class="oe_dropdown_menu">
-                                      <t t-if="widget.view.is_action_enabled('edit')"><li><a type="edit">Edit...</a></li></t>
-                                      <li><ul class="oe_kanban_colorpicker" data-field="color"/></li>
-                                  </ul>
+                              <div class="o_kanban_card_manage_section o_kanban_manage_reports">
+                                  <div role="menuitem">
+                                      <a type="edit">Edit</a>
+                                  </div>
                               </div>
                               <div class="oe_kanban_content">
                                   <div>
