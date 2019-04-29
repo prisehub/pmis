@@ -18,7 +18,7 @@
         "Matjaž Mozetič <m.mozetic@matmoz.si>",
         "Luxim d.o.o. <info@luxim.si>",
     ],
-    "depends": ["project_charter"],
+    "depends": ["project_charter", "hr_timesheet"],
     "data": [
         "data/risk_management_data.xml",
         "data/risk_management_sequence.xml",
