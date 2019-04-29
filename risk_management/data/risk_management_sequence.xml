@@ -1,0 +1,11 @@
+<odoo>
+    <data noupdate="1">
+        <!-- Sequences for risk_management.risk -->
+        <record id="seq_risk_management_risk" model="ir.sequence">
+            <field name="name">Risk Id</field>
+            <field name="code">risk.management.risk</field>
+            <field name="prefix">RI</field>
+            <field name="padding">4</field>
+        </record>
+    </data>
+</odoo>

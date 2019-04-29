@@ -1,0 +1,767 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* risk_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-29 04:40+0000\n"
+"PO-Revision-Date: 2019-04-29 04:40+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__state
+msgid "\n"
+"A risk can have one of these three states: draft, active, closed.\n"
+""
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__expected_value_inherent
+msgid "\n"
+"Expected Value. Cost of inherent impact * inherent probability. This is the\n"
+"pre-response value.\n"
+""
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__expected_value_residual
+msgid "\n"
+"Expected Value. Cost of residual impact * residual probability. This is the\n"
+"post-response value.\n"
+""
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__impact_residual
+msgid "\n"
+"Impact: The result of a particular threat or opportunity actually occurring,\n"
+"or the anticipation of such a result. This is the post-response value, common\n"
+"used scales are 1 to 10 or 1 to 100.\n"
+""
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__impact_inherent
+msgid "\n"
+"Impact: The result of a particular threat or opportunity actually occurring,\n"
+"or the anticipation of such a result. This is the pre-response value, common\n"
+"used scales are 1 to 10 or 1 to 100.\n"
+""
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__probability_residual
+msgid "\n"
+"Probability: The evaluated likelihood of a particular threat or opportunity\n"
+"actually happening, including a consideration of the frequency with which this\n"
+"may arise. This is the post-response value, common used scales are 1 to 10\n"
+"or 1 to 100.\n"
+""
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__probability_inherent
+msgid "\n"
+"Probability: The evaluated likelihood of a particular threat or opportunity\n"
+"actually happening, including a consideration of the frequency with which this\n"
+"may arise. This is the pre-response value, common used scales are 1 to 10\n"
+"or 1 to 100.\n"
+""
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__proximity_id
+msgid "\n"
+"Proximity: This would typically state how close to the present time the risk\n"
+"event is anticipated to happen (e.g. for project risks Imminent, within stage,\n"
+"within project, beyond project). Proximity should be recorded in accordance\n"
+"with the project's chosen scales or business continuity time scales.\n"
+""
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__risk_category_id
+msgid "\n"
+"Risk Category: The type of risk in terms of the project's or business' chosen\n"
+"categories (e.g. Schedule, quality, legal etc.)\n"
+""
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__risk_owner_id
+msgid "\n"
+"Risk Owner: The person responsible for managing the risk (there can be only\n"
+"one risk owner per risk), risk ownership is assigned to a managerial level,\n"
+"in case of business continuity to a C-level manager.\n"
+""
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__risk_response_category_id
+msgid "\n"
+"Risk Response Categories: How the project will treat the risk in terms of\n"
+"the project's (or business continuity planning) chosen categories.\n"
+""
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__name
+msgid "\n"
+"Risk label. Can be changed as long as risk is in state 'draft'.\n"
+""
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__description
+msgid "\n"
+"Short description of the Risk.\n"
+"\n"
+"Project risks are characteristics, circumstances or\n"
+"features of the project environment that may have an\n"
+"adverse effect on the project or the quality of the\n"
+"deliverables.\n"
+"\n"
+"Project assumptions are knowledge about the project\n"
+"that is taken as being true or correct for the purpose\n"
+"of project planning. Assumptions are made to allow\n"
+"planning to proceed with limited information about\n"
+"certain elements that are vital to the management of\n"
+"the project. Assumptions must be tested prior to\n"
+"finalising the Project Plan.\n"
+""
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_kanban_view
+msgid "(Inherent)"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_kanban_view
+msgid "(Residual)"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.view_task_kanban
+msgid "10"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__message_needaction
+msgid "Action Needed"
+msgstr "Acción Necesaria"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_project_task__risk_id
+msgid "Action on Risk"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.actions.act_window,name:risk_management.action_show_actions
+#: model:ir.ui.menu,name:risk_management.menu_actions_on_risk
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_tree_view
+msgid "Actions"
+msgstr "Acciones"
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_kanban_view
+msgid "Actions:"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_search_form_view
+msgid "Active Risks"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_search_form_view
+msgid "Active risks"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_management_project_charter_tree_view
+msgid "Assumptions, Risks"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__message_attachment_count
+msgid "Attachment Count"
+msgstr "Conteo de archivos adjuntos"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__author_id
+msgid "Author"
+msgstr "Autor"
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.view_task_kanban
+msgid "Blocked"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_search_form_view
+msgid "Category"
+msgstr "Categoría"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__description_cause
+msgid "Cause"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_form_view
+msgid "Close Risk"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__color
+msgid "Color"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_category__create_uid
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_proximity__create_uid
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_response_category__create_uid
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__create_uid
+msgid "Created by"
+msgstr "Creado por:"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_category__create_date
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_proximity__create_date
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_response_category__create_date
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__create_date
+msgid "Created on"
+msgstr "Creado"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__date_modified
+msgid "Date Modified"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__date_registered
+msgid "Date Registered"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__date_modified
+msgid "Date of last update."
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__date_registered
+msgid "Date of the Risk registered. Auto populated."
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.view_task_kanban
+msgid "Delete"
+msgstr "Eliminar"
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_form_view
+msgid "Description"
+msgstr "Descripción"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_category__display_name
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_proximity__display_name
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_response_category__display_name
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_kanban_view
+#: model_terms:ir.ui.view,arch_db:risk_management.view_task_kanban
+msgid "Edit..."
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__description_effect
+msgid "Effect"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__description_event
+msgid "Event"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__expected_value_inherent
+msgid "Expected Inherent Value"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__expected_value_residual
+msgid "Expected Residual Value"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Empresas)"
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_search_form_view
+msgid "Group By..."
+msgstr "Agrupar por..."
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_category__id
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_proximity__id
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_response_category__id
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__id
+msgid "ID"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__message_unread
+msgid "If checked new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención"
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención."
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si se encuentra marcado, algunos mensajes tienen error de envío."
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.view_task_kanban
+msgid "In Progress"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__impact_inherent
+msgid "Inherent Impact"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__probability_inherent
+msgid "Inherent Probability"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_form_view
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_tree_view
+msgid "Inherent Risk Score"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__message_is_follower
+msgid "Is Follower"
+msgstr "Es un seguidor"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_category____last_update
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_proximity____last_update
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_response_category____last_update
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk____last_update
+msgid "Last Modified on"
+msgstr "Fecha de modificación"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_category__write_uid
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_proximity__write_uid
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_response_category__write_uid
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__write_uid
+msgid "Last Updated by"
+msgstr "Ultima Actualización por"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_category__write_date
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_proximity__write_date
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_response_category__write_date
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__write_date
+msgid "Last Updated on"
+msgstr "Actualizado en"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adjuntos principales"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de Envío de Mensaje"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_search_form_view
+msgid "Mod. Date"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_search_form_view
+msgid "My Projects"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.view_task_kanban
+msgid "Normal"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__message_has_error_counter
+msgid "Number of error"
+msgstr "Número de error"
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de envío"
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leidos"
+
+#. module: risk_management
+#: selection:risk.management.response.category,type:0
+msgid "Opportunity"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__risk_owner_id
+msgid "Owner"
+msgstr "Propietario"
+
+#. module: risk_management
+#: model:ir.model,name:risk_management.model_project_project
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__project_id
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_search_form_view
+msgid "Project"
+msgstr "Proyecto"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_project_project__risk_ids
+msgid "Project Risks"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.actions.act_window,name:risk_management.action_show_proximity
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_proximity__name
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__proximity_id
+#: model:ir.ui.menu,name:risk_management.menu_risk_proximity
+#: model_terms:ir.ui.view,arch_db:risk_management.proximity_tree_view
+msgid "Proximity"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.view_task_kanban
+msgid "Ready for next stage"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_search_form_view
+msgid "Reg. Date"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.view_task_kanban
+msgid "Remaining Time"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.view_task_kanban
+msgid "Remaining hours"
+msgstr "Horas restantes"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__impact_residual
+msgid "Residual Impact"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__probability_residual
+msgid "Residual Probability"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_form_view
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_tree_view
+msgid "Residual Risk Score"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_kanban_view
+msgid "Residual Score:"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_form_view
+msgid "Response Actions"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.ui.menu,name:risk_management.menu_risk_response_categories
+msgid "Response Categories"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_response_category__name
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__risk_response_category_id
+msgid "Response Category"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__risk_response_ids
+msgid "Response Ids"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model,name:risk_management.model_risk_management_risk
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_form_view
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_management_project_task_search_view
+msgid "Risk"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_management_project_task_search_view
+msgid "Risk Action"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_management_project_charter_tree_view
+msgid "Risk Assesment, Assumptions"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.actions.act_window,name:risk_management.action_show_categories
+#: model:ir.ui.menu,name:risk_management.menu_risk_categories
+msgid "Risk Categories"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_category__name
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__risk_category_id
+#: model_terms:ir.ui.view,arch_db:risk_management.category_tree_view
+msgid "Risk Category"
+msgstr ""
+
+#. module: risk_management
+#: model:mail.message.subtype,name:risk_management.mt_risk_closed
+msgid "Risk Closed"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_project_project__risk_count
+msgid "Risk Count"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__description
+msgid "Risk Description"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_search_form_view
+msgid "Risk Edition"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__name
+msgid "Risk Id"
+msgstr ""
+
+#. module: risk_management
+#: model:mail.message.subtype,name:risk_management.mt_risk_draft
+msgid "Risk In Draft"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_search_form_view
+msgid "Risk Owner"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_form_view
+msgid "Risk Response"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.actions.act_window,name:risk_management.action_show_response_categories
+msgid "Risk Response Categories"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.response_category_tree_view
+msgid "Risk Response Category"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__risk_response_count
+msgid "Risk Response Count"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_form_view
+msgid "Risk Score"
+msgstr ""
+
+#. module: risk_management
+#: model:mail.message.subtype,name:risk_management.mt_risk_active
+msgid "Risk Set Active"
+msgstr ""
+
+#. module: risk_management
+#: model:mail.message.subtype,description:risk_management.mt_risk_closed
+msgid "Risk closed"
+msgstr ""
+
+#. module: risk_management
+#: model:mail.message.subtype,description:risk_management.mt_risk_draft
+msgid "Risk in draft"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model,name:risk_management.model_risk_management_category
+msgid "Risk log category table"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model,name:risk_management.model_risk_management_proximity
+msgid "Risk log proximity table"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model,name:risk_management.model_risk_management_response_category
+msgid "Risk log response category table"
+msgstr ""
+
+#. module: risk_management
+#: model:mail.message.subtype,description:risk_management.mt_risk_active
+msgid "Risk set active"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.actions.act_window,name:risk_management.action_show_risks
+#: model:ir.ui.menu,name:risk_management.menu_configuration_risks
+#: model:ir.ui.menu,name:risk_management.menu_risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_tree_view
+msgid "Risks"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_search_form_view
+msgid "Risks without actions"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_search_form_view
+msgid "Risks without ownership"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_form_view
+msgid "Set Active"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_form_view
+msgid "Set Draft"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__state
+#: model_terms:ir.ui.view,arch_db:risk_management.risk_search_form_view
+msgid "State"
+msgstr "Estado"
+
+#. module: risk_management
+#: model:ir.model,name:risk_management.model_project_task
+msgid "Task"
+msgstr "Tarea"
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_project_task__risk_id
+msgid "Task is an action on a risk identified by this label."
+msgstr ""
+
+#. module: risk_management
+#: selection:risk.management.response.category,type:0
+msgid "Threat"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_response_category__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes por leer"
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes sin leer"
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.view_task_kanban
+msgid "Validate planned time"
+msgstr ""
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.view_task_kanban
+msgid "Very Important"
+msgstr ""
+
+#. module: risk_management
+#: model:ir.model.fields,field_description:risk_management.field_risk_management_risk__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: risk_management
+#: model:ir.model.fields,help:risk_management.field_risk_management_risk__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicaciones del sitio web"
+
+#. module: risk_management
+#: model_terms:ir.ui.view,arch_db:risk_management.view_task_kanban
+msgid "oe_kanban_text_red"
+msgstr ""
+
