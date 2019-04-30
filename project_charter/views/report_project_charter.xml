@@ -1,0 +1,74 @@
+<odoo>
+
+    <template id="project_charter_report">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <center><h3>ACTA DE CONSTITUCION</h3></center>
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>Proyecto</th>
+                                <td><span t-field="o.name"/> [<span t-field="o.key"/>]</td>
+                            </tr>
+                            <tr>
+                                <th colspan="2"><center>OBJETIVO GENERAL</center></th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <span t-raw="o.notes"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="2"><center>OBJETIVOS ESPECIFICOS</center></th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <span t-raw="o.details"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="2"><center>ENTREGABLES Y CRITERIOS DE ACEPTACION</center></th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <ul>
+                                        <t t-foreach="o.project_success_ids" t-as="success">
+                                            <li><span t-esc="success.success"/></li>
+                                        </t>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="2"><center>RESTRICCIONES</center></th>
+                            </tr>
+                            <tr>
+                                <th colspan="2"><center>RIESGOS</center></th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <ul>
+                                        <t t-foreach="o.risk_ids" t-as="risk">
+                                            <li>
+                                                <span t-esc="risk.description"/>, riesgo de: <span t-esc="risk.risk_category_id.name"/>
+                                            </li>
+                                        </t>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+    <report
+        id="report_project_charter_action"
+        model="project.project"
+        name="project_charter.project_charter_report"
+        string="Print Project Charter"
+        report_type="qweb-pdf"
+        multi="False"/>
+
+</odoo>

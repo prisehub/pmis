@@ -14,6 +14,10 @@
     "complexity": "easy",
     "images": [],
     "depends": ["project"],
-    "data": ["views/project_charter_view.xml", "security/ir.model.access.csv"],
+    "data": [
+        "views/project_charter_view.xml",
+        "views/report_project_charter.xml",
+        "security/ir.model.access.csv",
+    ],
     "installable": True,
 }
